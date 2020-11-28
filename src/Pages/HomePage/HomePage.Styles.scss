@@ -1,0 +1,42 @@
+.header{
+    height: 100vh;
+    background-color: antiquewhite;
+
+    h1{
+        font-size: 5rem;
+    }
+}
+
+h1{
+    font-size: 5rem;
+}
+
+section{
+    height: 80vh;
+
+    h1{
+        font-size: 5rem;
+    }
+}
+
+.about-us-section{
+    background: aquamarine;
+}
+
+.events-section{
+    background: bisque;
+    height: fit-content;
+}
+
+.projects-section{
+    background-color: burlywood;
+    height: fit-content;
+}
+
+.board-section{
+    background: cadetblue;
+}
+
+.footer{
+    background: cornflowerblue;
+}
