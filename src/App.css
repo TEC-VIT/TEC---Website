@@ -6,3 +6,17 @@
 html{
     font-size: 62.5%;
 }
+
+body{
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+    width: 7.5px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #4e4e4e;
+    border-radius: 10px;
+}
