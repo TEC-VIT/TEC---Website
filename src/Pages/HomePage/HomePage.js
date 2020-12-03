@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import EventsCardContainer from '../../Components/EventsCardContainer/EventsCardContainer';
 import ProjetcsCardContainer from '../../Components/ProjectsCardContainer/ProjectCardContainer';
+import SectionHeading from '../../Components/SectionHeading/SectionHeading';
 
 import './HomePage.Styles.scss'
 
@@ -36,13 +37,10 @@ export default class HomePage extends Component {
         return (
             <div>
                 <section className='header'>
-                    <h1>Landing Screen</h1>
                 </section>
 
-                {this.state.upcommingEvents.length ? <h1>Upcomming events</h1> : null}
-
                 <section className='about-us-section'>
-                    <h1>About Us</h1>
+                    <SectionHeading heading='About Us' />
                 </section>
 
                 <section className='events-section'>

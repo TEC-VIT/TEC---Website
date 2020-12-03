@@ -1,10 +1,8 @@
 .header{
-    height: 100vh;
-    background-color: antiquewhite;
-
-    h1{
-        font-size: 5rem;
-    }
+    height: 87vh;
+    background-color: #161616;
+    color: #ffffff;
+    font-size: 5rem;
 }
 
 h1{
@@ -20,7 +18,8 @@ section{
 }
 
 .about-us-section{
-    background: aquamarine;
+    padding: 8% 0;
+    height: fit-content;
 }
 
 .events-section{
