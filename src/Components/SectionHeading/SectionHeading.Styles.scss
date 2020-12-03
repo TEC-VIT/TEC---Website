@@ -1,0 +1,46 @@
+.section-heading{
+    position: relative;
+    height: 75px;
+
+    hr{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        z-index: 0;
+    }
+
+    h1{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: 0.12em;
+        padding: 0 21px;
+        
+    }
+
+    .left{
+        position: absolute;
+        z-index: 1;
+        left: 9.5%;
+    }
+
+    .center{
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .light{
+        border: 2px solid black;
+        background: white;
+    }
+
+    .dark{
+        border: 2px solid white;
+        background: #161616;
+        color: white;
+    }
+}
