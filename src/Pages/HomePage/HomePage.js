@@ -31,7 +31,7 @@ export default class HomePage extends Component {
         .then(res => res.json())
         .then(boardMembers => this.setState({board: boardMembers}))
     }
-
+    
     render() {
         return (
             <div>
