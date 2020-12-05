@@ -35,10 +35,11 @@ export default class HomePage extends Component {
     render() {
         return (
             <div>
+                
                 <section className='header'>
                 </section>
 
-                <AboutUsSection id='about' aboutUs={this.state.aboutUs} />
+                <AboutUsSection aboutUs={this.state.aboutUs} />
                 <BoardSection boardMembers={this.state.board} />
 
             </div>
