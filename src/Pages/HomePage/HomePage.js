@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import AboutUsSection from '../../Components/AboutUsSection/AboutUsSection';
+import BoardSection from '../../Components/BoardSection/BoardSection';
 
 import './HomePage.Styles.scss'
 
@@ -12,7 +13,8 @@ export default class HomePage extends Component {
             upcommingEvents: [],
             events: [],
             projects: [],
-            board: {}
+            board: [],
+            scroll: 0
         }
     }
 
@@ -36,7 +38,8 @@ export default class HomePage extends Component {
                 <section className='header'>
                 </section>
 
-                <AboutUsSection aboutUs={this.state.aboutUs} />
+                <AboutUsSection id='about' aboutUs={this.state.aboutUs} />
+                <BoardSection boardMembers={this.state.board} />
 
             </div>
         )

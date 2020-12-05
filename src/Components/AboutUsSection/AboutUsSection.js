@@ -1,6 +1,7 @@
 import React from 'react'
 
 import SectionHeading from '../SectionHeading/SectionHeading'
+import AboutUsWorkCard from '../AboutUsWorkCard/AboutUsWorkCard'
 
 import aboutUsVideo from '../../Assets/AboutUs.mp4'
 import ourVisionImage from '../../Assets/AboutUs.jpg'
@@ -8,6 +9,28 @@ import ourVisionImage from '../../Assets/AboutUs.jpg'
 import './AboutUsSection.Styles.scss'
 
 const AboutUsSection = ({aboutUs}) => {
+    const works = [
+        {
+            id: 1,
+            label : "members",
+            number : 45
+        },
+        {
+            id :2,
+            label : "projects",
+            number : 76
+        },
+        {
+            id : 3,
+            label : "sessions",
+            number : 34
+        },
+        {
+            id : 4,
+            label : "events",
+            number : 200
+        }
+    ]
     return (
         <section className='about-us-section'>
             <SectionHeading heading='About Us' />
@@ -36,22 +59,7 @@ const AboutUsSection = ({aboutUs}) => {
                 <img className='image' src={ourVisionImage} alt='ourVision' />
             </div>
             <div className='our-work'>
-                <div className='work'>
-                    <span className='num'>45</span>
-                    <p>members</p>
-                </div>
-                <div className='work'>
-                    <span className='num'>78</span>
-                    <p>projects</p>
-                </div>
-                <div className='work'>
-                    <span className='num'>34</span>
-                    <p>sessions</p>
-                </div>
-                <div className='work'>
-                    <span className='num'>200</span>
-                    <p>events</p>
-                </div>
+                {works.map(data => <AboutUsWorkCard key={data.id} label={data.label} number={data.number} />)}
             </div>
         </section>
     )

@@ -1,0 +1,90 @@
+.board-member-card{
+    width: 20%;
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &:hover .img-container{
+        transform: scale(1.2);
+
+        .img{
+            transform: scale(1);
+            filter: blur(1px) brightness(70%);
+        }
+
+        .links{
+            display: inline;
+        }
+    }
+
+    .img-container{
+        width: 20rem;
+        height: 20rem;
+        margin: 5rem;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+        transition: all .5s;
+
+        .img{
+            width: 100%;
+            backface-visibility: hidden;
+            transition: all .5s;
+            transform: scale(1.2);
+        }
+
+        .links{
+            width: fit-content;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: none;
+            cursor: pointer;
+            
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 4rem;
+                transition: all .2s;
+
+                &:not(:last-child){
+                    margin-right: 2rem;
+                }
+            }
+
+            .linkedin:hover{
+                color: #0e76a8;
+            }
+
+            .instagram:hover{
+                color: #dd2a7b;
+            }
+
+            .email:hover{
+                color: #4285f4;
+            }
+        }
+    }
+
+    .name{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.12em;
+    }
+
+    .post{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.12em;
+    }
+}
