@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import AboutUsSection from '../../Components/AboutUsSection/AboutUsSection';
 import BoardSection from '../../Components/BoardSection/BoardSection';
+import EventsSection from '../../Components/EventsSection/EventsSection';
 
 import './HomePage.Styles.scss'
 
@@ -40,6 +41,7 @@ export default class HomePage extends Component {
                 </section>
 
                 <AboutUsSection aboutUs={this.state.aboutUs} />
+                <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
                 <BoardSection boardMembers={this.state.board} />
 
             </div>

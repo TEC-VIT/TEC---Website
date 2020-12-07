@@ -1,0 +1,52 @@
+.footer{
+    background: black;
+    width: 100%;
+    height: 13rem;
+
+    .links{
+        height: 11rem;
+
+        .follow-us{
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 23px;
+            line-height: 34px;
+            margin: 0 10%;
+            padding: 1rem 0;
+        }
+
+        .section-heading{
+            margin-top: -2rem;
+
+            .icon{
+                text-decoration: none;
+
+                &:not(:last-child){
+                    margin-right: 1rem;
+                }
+
+                .medium:hover{
+                    color: #00ab6c;
+                }
+
+                .linkedin:hover{
+                    color: #0e76a8;
+                }
+    
+                .instagram:hover{
+                    color: #dd2a7b;
+                }
+    
+                .email:hover{
+                    color: #4285f4;
+                }
+            }
+
+            h1{
+                font-size: 30px;
+                line-height: 50px;
+            }
+        }
+    }
+}
