@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { scroller } from 'react-scroll'
 
-import logo from '../../Assets/TEC-Logo.png'
+import logo from '../../Assets/TECLogo.png'
 
 import './NavBar.Styles.scss'
 
