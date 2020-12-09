@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { scroller } from 'react-scroll'
 
+import logo from '../../Assets/TEC-Logo.png'
+
 import './NavBar.Styles.scss'
 
 const NavBar = () => {
@@ -35,7 +37,7 @@ const NavBar = () => {
     return (
         <nav className='navbar' style={{opacity: `${visible ? '1' : '0'}`, top: `${visible ? '0' : '-7rem'}`}}>
             <Link className='nav-logo' to='/'>
-
+                <img src={logo} alt='logo' />
             </Link>
             <div className='nav-links'>
                 <Link className='nav-option' to='/'>Home</Link>

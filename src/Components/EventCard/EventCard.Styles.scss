@@ -1,0 +1,21 @@
+.event-card{
+    width: 30rem;
+    box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);
+
+    .event-img{
+        width: calc(100% - 2rem);
+        margin: 1rem;
+    }
+
+    .event-description{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 127.2%;
+        text-align: justify;
+        letter-spacing: -0.035em;
+        margin: 0 1.5rem;
+        padding-bottom: 1rem;
+    }
+}

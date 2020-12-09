@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import AboutUsSection from '../../Components/AboutUsSection/AboutUsSection';
 import BoardSection from '../../Components/BoardSection/BoardSection';
+import ContactUs from '../../Components/ContactUsSection/ContactUs';
 import EventsSection from '../../Components/EventsSection/EventsSection';
 
 import './HomePage.Styles.scss'
@@ -25,7 +26,7 @@ export default class HomePage extends Component {
         .then(data => this.setState({
             events: data.splice(0,4),
             projects: data.splice(0,4),
-            upcommingEvents: [{event: "WebDev Session", time: "30-11-2020"}]
+            upcommingEvents: [{event: "WebDev Session", time: "30-11-2020"}, {event: "WebDev Session", time: "30-11-2020"}]
         }))
 
         fetch('https://jsonplaceholder.typicode.com/users')
@@ -43,6 +44,7 @@ export default class HomePage extends Component {
                 <AboutUsSection aboutUs={this.state.aboutUs} />
                 <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
                 <BoardSection boardMembers={this.state.board} />
+                <ContactUs />
 
             </div>
         )
