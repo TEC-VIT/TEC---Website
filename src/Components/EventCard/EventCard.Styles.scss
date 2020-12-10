@@ -18,3 +18,11 @@
         padding-bottom: 1rem;
     }
 }
+
+@media only screen and (max-width: 470px){
+    .event-card{
+        .event-description{
+            font-size: 11px;
+        }
+    }
+}

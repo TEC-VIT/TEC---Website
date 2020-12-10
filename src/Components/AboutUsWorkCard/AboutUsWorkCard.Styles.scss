@@ -6,7 +6,7 @@
     line-height: 7.3rem;
     letter-spacing: 0.12em;
     margin: 2rem 0;
-    min-width: 200px;
+    min-width: 180px;
 
     p{
         margin-top: -2rem;
@@ -16,5 +16,13 @@
 @media only screen and (max-width: 950px){
     .work{
         width: 50%;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .work{
+        font-size: 20px;
+        line-height: 40px;
+        margin: 0;
     }
 }

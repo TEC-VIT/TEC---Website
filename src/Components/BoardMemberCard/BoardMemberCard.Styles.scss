@@ -100,3 +100,24 @@
         }
     }
 }
+
+@media only screen and (max-width: 470px){
+    .board-member-card{
+        margin-bottom: 2rem;
+
+        .img-container{
+            width: 18rem;
+            height: 18rem;
+            margin: 2rem;
+        }
+
+        .name{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        .post{
+            font-size: 11px;
+            line-height: 16px;
+        }
+    }
+}

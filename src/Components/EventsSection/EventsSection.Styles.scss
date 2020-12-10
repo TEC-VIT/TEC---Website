@@ -90,13 +90,22 @@
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 470px){
     .events-section{
+        .section-heading{
+            margin: 5rem 0 2rem 0;
+        }
+
         .events{
             &-container{
-                width: 80%;
+                width: 70%;
                 grid-template-columns: repeat(1, 1fr);
             }
+        }
+
+        .btn{
+            font-size: 12px;
+            line-height: 127.2%;
         }
     }
 }
