@@ -11,7 +11,6 @@ export default class HomePage extends Component {
     constructor(){
         super()
         this.state = {
-            aboutUs: {},
             upcommingEvents: [],
             events: [],
             projects: [],
@@ -41,7 +40,7 @@ export default class HomePage extends Component {
                 <section className='header'>
                 </section>
 
-                <AboutUsSection aboutUs={this.state.aboutUs} />
+                <AboutUsSection />
                 <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
                 <BoardSection boardMembers={this.state.board} />
                 <ContactUs />

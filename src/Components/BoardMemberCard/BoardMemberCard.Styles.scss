@@ -72,8 +72,8 @@
         font-family: Oswald;
         font-style: normal;
         font-weight: normal;
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 2.4rem;
+        line-height: 3.6rem;
         text-align: center;
         letter-spacing: 0.12em;
     }
@@ -82,9 +82,21 @@
         font-family: Oswald;
         font-style: normal;
         font-weight: normal;
-        font-size: 27px;
-        line-height: 40px;
+        font-size: 2.7rem;
+        line-height: 4rem;
         text-align: center;
         letter-spacing: 0.12em;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .board-member-card{
+        width: 50%;
+        margin: 0;
+
+        .img-container{
+            width: 25rem;
+            height: 25rem;
+        }
     }
 }

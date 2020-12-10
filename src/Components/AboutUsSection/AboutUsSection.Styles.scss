@@ -28,8 +28,8 @@
                 font-family: Oswald;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 48px;
-                line-height: 71px;
+                font-size: 4.8rem;
+                line-height: 7.1rem;
                 text-align: center;
                 letter-spacing: 0.12em;
             }
@@ -38,8 +38,8 @@
                 font-family: Poppins;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 18px;
-                line-height: 23px;
+                font-size: 1.8rem;
+                line-height: 2.3rem;
                 letter-spacing: -0.03em;
                 margin-top: 3rem;
             }
@@ -66,8 +66,8 @@
                 font-family: Oswald;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 48px;
-                line-height: 71px;
+                font-size: 4.8rem;
+                line-height: 7.1rem;
                 text-align: center;
                 letter-spacing: 0.12em;
             }
@@ -76,8 +76,8 @@
                 font-family: Poppins;
                 font-style: normal;
                 font-weight: normal;
-                font-size: 18px;
-                line-height: 23px;
+                font-size: 1.8rem;
+                line-height: 2.3rem;
                 letter-spacing: -0.03em;
                 margin-top: 3rem;
             }
@@ -91,5 +91,77 @@
         justify-content: space-around;
         color: #4e4e4e;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .about-us-section{
+        .about-us{
+            flex-direction: column-reverse;
+
+            .video-container{
+                width: 64%;
+            }
+
+            .about-us-text{
+                width: 80%;
+                margin-bottom: 3rem;
+            }
+        }
+
+        .our-vision{
+            flex-direction: column;
+
+            .image{
+                display: none;
+                visibility: hidden;
+            }
+
+            .our-vision-text{
+                width: 80%;
+            }
+        }
+
+        .our-work{
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 2.5rem 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .about-us-section{
+        .about-us{
+            .about-us-text{
+                padding: 2rem 3rem;
+                h1{
+                    display: none;
+                    visibility: hidden;
+                }
+
+                p{
+                    margin-top: 0;
+                    font-size: 11px;
+                    line-height: 127.2%;
+                }
+            }
+        }
+
+        .our-vision{
+            .our-vision-text{
+                padding: 2rem 3rem;
+                h1{
+                    font-size: 17px;
+                    line-height: 25px;
+                }
+
+                p{
+                    margin-top: 2rem;
+                    font-size: 11px;
+                    line-height: 127.2%;
+                }
+            }
+        }
     }
 }

@@ -2,13 +2,19 @@
     font-family: Oswald;
     font-style: normal;
     font-weight: normal;
-    font-size: 49px;
-    line-height: 73px;
+    font-size: 4.9rem;
+    line-height: 7.3rem;
     letter-spacing: 0.12em;
     margin: 2rem 0;
     min-width: 200px;
 
     p{
         margin-top: -2rem;
+    }
+}
+
+@media only screen and (max-width: 950px){
+    .work{
+        width: 50%;
     }
 }
