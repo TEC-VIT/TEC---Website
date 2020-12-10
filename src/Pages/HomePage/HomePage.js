@@ -4,6 +4,7 @@ import AboutUsSection from '../../Components/AboutUsSection/AboutUsSection';
 import BoardSection from '../../Components/BoardSection/BoardSection';
 import ContactUs from '../../Components/ContactUsSection/ContactUs';
 import EventsSection from '../../Components/EventsSection/EventsSection';
+import NavBar from '../../Components/NavBar/NavBar';
 
 import './HomePage.Styles.scss'
 
@@ -36,7 +37,7 @@ export default class HomePage extends Component {
     render() {
         return (
             <div>
-                
+                <NavBar />
                 <section className='header'>
                 </section>
 

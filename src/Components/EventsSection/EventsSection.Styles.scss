@@ -1,4 +1,6 @@
 .events-section{
+    position: relative;
+
     .section-heading{
         margin: 7rem 0 3rem 0;
     }
@@ -46,6 +48,15 @@
             color: #161616;
         }
     }
+
+    .circle-1{
+        display: none;
+        visibility: hidden;
+        position: absolute;
+        bottom: -15rem;
+        right: 20rem;
+        z-index: -1;
+    }
 }
 
 @media only screen and (min-width: 1350px){
@@ -61,11 +72,16 @@
             .upcoming-events-container{
                 display: block;
                 visibility: visible;
+                position: relative;
             }
         }
         .btn{
             display: none;
             visibility: hidden;
+        }
+        .circle-1{
+            display: block;
+            visibility: visible;
         }
     }
 }

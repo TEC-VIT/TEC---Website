@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { CircleSmall } from '../BackgroundObjects/BackgroungObjects'
 import { EventCard } from '../EventCard/EventCard'
 import SectionHeading from '../SectionHeading/SectionHeading'
 import UpcomingEventsCard from '../UpcomingEventsCard/UpcomingEventsCard'
@@ -20,6 +21,9 @@ const EventsSection = ({events, upcomingEvents}) => {
                 { eve.length ? <UpcomingEventsCard upcomingEvents={upcomingEvents} /> : null}
             </div>
             <Link to='/events'><button className='btn'>Upcoming Sessions &#8594;</button></Link>
+            <div className='circle-1'>
+                <CircleSmall />
+            </div>
         </section>
     )
 }

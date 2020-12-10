@@ -1,0 +1,20 @@
+.events-page{
+    min-height: calc(100vh - 24rem);
+
+    .navbar{
+        opacity: 1 !important;
+        top: 0 !important;
+    }
+    .section-heading{
+        margin-top: 13rem;
+    }
+    .upcoming-events-container{
+        width: 90%;
+        margin: 2rem auto;
+
+        .upcoming-event-section:not(:last-child){
+            border-bottom: 2px solid black;
+        }
+    }
+    
+}

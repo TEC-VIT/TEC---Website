@@ -1,4 +1,6 @@
 .about-us-section{
+    position: relative;
+
     .section-heading{
         margin: 7rem 0 3rem 0;
     }
@@ -92,6 +94,34 @@
         color: #4e4e4e;
         text-align: center;
     }
+
+    .circle-1{
+        position: absolute;
+        top: -2rem;
+        left: 3rem;
+        z-index: -1;
+    }
+
+    .circle-2{
+        position: absolute;
+        bottom: 10rem;
+        right: 3rem;
+        z-index: -1;
+    }
+
+    .line{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+
+        svg{
+            width: 100%;
+            height: 100%;
+        }
+    }
 }
 
 @media only screen and (max-width: 950px){
@@ -126,6 +156,11 @@
             flex-wrap: wrap;
             width: 100%;
             padding: 2.5rem 0;
+        }
+
+        .circle-1, .circle-2{
+            display: none;
+            visibility: hidden;
         }
     }
 }

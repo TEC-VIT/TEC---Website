@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import SectionHeading from '../SectionHeading/SectionHeading'
 import AboutUsWorkCard from '../AboutUsWorkCard/AboutUsWorkCard'
+import { CircleSmall, Line } from '../BackgroundObjects/BackgroungObjects'
 
 import AboutUs from '../../Assets/Data/AboutUs'
 
@@ -39,6 +40,15 @@ class AboutUsSection extends Component{
                 </div>
                 <div className='our-work'>
                     {this.state.aboutUs.works.map(data => <AboutUsWorkCard key={data.id} label={data.label} number={data.number} />)}
+                </div>
+                <div className='circle-1'>
+                    <CircleSmall />
+                </div>
+                <div className='circle-2'>
+                    <CircleSmall />
+                </div>
+                <div className='line'>
+                    <Line />
                 </div>
             </section>
         )

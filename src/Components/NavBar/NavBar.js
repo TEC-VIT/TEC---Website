@@ -16,7 +16,7 @@ const NavBar = () => {
         } else {
         window.scrollTo({top:0,left:0, behavior: "smooth"})
         }
-    }, [location,])
+    }, [location])
 
     const scrollTo = (section) => {
         scroller.scrollTo(section, {
@@ -42,8 +42,8 @@ const NavBar = () => {
             <div className='nav-links'>
                 <Link className='nav-option' to='/'>Home</Link>
                 <Link className='nav-option' to="/#about-us-section">About Us</Link>
-                <Link className='nav-option' to='/events'>Events</Link>
-                <Link className='nav-option' to='/projects'>Projects</Link>
+                <Link className='nav-option' to='/#events-section'>Events</Link>
+                <Link className='nav-option' to='/#projects-section'>Projects</Link>
                 <Link className='nav-option' to='/#board-section'>Board</Link>
                 <Link className='nav-option' to='/#contact-us-section'>Contact Us</Link>
             </div>
