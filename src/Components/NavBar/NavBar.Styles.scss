@@ -62,27 +62,26 @@
       display:flex;
       height:3px;
       background-color: white;
-      z-index:100000000;
       position: absolute;;
       right:0;
       margin-right: 30px;
       width:37px;
       border-radius: 5px;
-      // transition: all .5s ease-in-out;
-      // transform: var(--lshift);
-      // animation: var(--animate);
+      transition: all .5s ease-in-out;
+      
     }
 
     .hamburger::before,.hamburger::after{
       content:'';
       display:flex;
-     height:3px;
-     background-color: white;
-     z-index:100000000;
-     position: absolute;;
-     right:0;
-     margin-right: 0px;
-     width:37px;     
+      height:3px;
+      background-color: white;
+      position: absolute;;
+      right:0;
+      margin-right: 0px;
+      width:37px;   
+      transition: all .5s ease-in-out;  
+      border-radius: 5px;
     
    }
  
@@ -90,8 +89,7 @@
 
    .hamburger::after{transform: translateY(12px);}
    .menu{
-     display: flex;
-    
+     display: flex;    
      position: relative;
      justify-content: center;
      align-items:center;
@@ -115,44 +113,32 @@
       transform: rotate(-45deg) translate(35px,35px);
     }
     
-    .nav-links_mob{z-index:21651651651;
+    .nav-links_mob{
       display: var(--mobdisp);
       flex-direction:column;
-    background-color: black;
-    height:80vh;
-     width:100%;
-    position:fixed;
-    top:0;
-    margin-top: 63px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 20px;
-       
-    align-items:center;
-  object-fit: contain;
+      background-color: #161616;
+      height:80vh;
+      width:100%;
+      position:fixed;
+      top:0;
+      margin-top: 63px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 20px;       
+      align-items:center;
+      justify-content: space-evenly;
 
     }
 
-    .nav-links_mob .nav-option1{border-radius: 5px;
-      margin-top:15px;
-      padding:10px;
-color:white;
+    .nav-links_mob .nav-option1{
+      
+      color:white;
       text-decoration: none;
+      &:hover,:active{
+        color: gray;
+      }
     }
-
-    .nav-links_mob .nav-option1:hover{
-          color:black;
-          background-color:white;
-    }
+  
   }
-
-
-
-
-@media only screen and (max-width: 470px){
-  .nav-links{
-      width: 0;
-  }
-}

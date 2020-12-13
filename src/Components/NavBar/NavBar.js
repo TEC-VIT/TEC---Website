@@ -9,11 +9,8 @@ import './NavBar.Styles.scss'
 
 const NavBar = () => {
     const location = useLocation()
-
-
     let root=document.documentElement;
-    const [clname,setClname] = useState('menu');
-
+    
     window.addEventListener("click",()=>{
         if(open){root.style.setProperty('--mobdisp','flex')}
         else if(open==false){root.style.setProperty('--mobdisp','none') }
@@ -26,6 +23,7 @@ const NavBar = () => {
     })
 
     const [open,setOpen]=useState(false);
+
     useEffect(()=> {
         if (location.hash) {
             scrollTo(location.hash.slice(1))
@@ -62,8 +60,6 @@ const NavBar = () => {
                 <Link className='nav-option' to='/#projects-section'>Projects</Link>
                 <Link className='nav-option' to='/#board-section'>Board</Link>
                 <Link className='nav-option' to='/#contact-us-section'>Contact Us</Link>
-
-
             </div>
 
             <div className='nav-links_mob' >
@@ -73,19 +69,13 @@ const NavBar = () => {
                 <Link className='nav-option1' to='/#projects-section'>Projects</Link>
                 <Link className='nav-option1' to='/#board-section'>Board</Link>
                 <Link className='nav-option1' to='/#contact-us-section'>Contact Us</Link>
-
-
-            </div>
-            
+            </div>            
         
-        < div className={ open ? "menu open" : "menu"} onClick = {() => { setOpen(!open);
-        }}>     
+            < div className={ open ? "menu open" : "menu"} onClick = {() => { setOpen(!open); }}>     
             
-            <div className='hamburger'>
-            
-            </div> 
-        </ div>
-        
+                <div className='hamburger'>            
+                </div> 
+            </ div>        
             
         </nav>
     )
