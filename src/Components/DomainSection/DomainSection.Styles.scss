@@ -1,0 +1,239 @@
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 30px;
+}
+
+h3{
+	color:white;
+}
+
+.domain-section{
+  background: #161616;
+  width: 100%;
+  display: block;
+  justify-content: space-around;
+}
+
+.domain-section .section-heading {
+  margin-top: 7rem ;
+  padding: 7rem 0 ;
+}
+
+
+// @media only screen and (min-width: 992px){
+
+// }
+.icon-card {
+    /*max-width: 400px;*/
+    padding: 35px 30px;
+    margin-top: -35px;
+    margin-bottom: -35px;
+    transition: all 0.3s ease-in-out;
+}
+.icon-card {
+    /*max-width: 340px;*/
+    margin: 10px;
+    text-align: center;
+}
+.icon-col{
+  background-color: rgba(39, 39, 39, 1);
+}
+.icon-wrap{
+	width:144px;
+	height:100px;
+	
+	padding-bottom: 20px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.ml{
+	background-color: rgba(39, 39, 39, 1);
+}
+.web{
+	background-color: rgba(39, 39, 39, 1);
+}
+.app{
+	background-color: rgba(39, 39, 39, 1);
+}
+.electronics{
+	background-color: rgba(39, 39, 39, 1);
+}
+.design{
+	background-color: rgba(39, 39, 39, 1);
+}
+.cv{
+	background-color: rgba(39, 39, 39, 1);
+}
+.iot{
+	background-color: rgba(39, 39, 39, 1);
+}
+#ml-m{
+  animation-name: spin-ml;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform-origin: center;
+  transform-box: fill-box;
+  animation-play-state: paused;
+}
+.ml:hover #ml-m {
+  animation-play-state: running;
+}
+@keyframes spin-ml {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ml:hover #ml-dot {
+  animation-play-state: running;
+}
+
+#iot-m{
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 37px 37px;
+    animation-play-state: paused;
+}
+.iot:hover #iot-m {
+    animation-play-state: running;
+  }
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+#web-m{
+  animation-name: web-scrn;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+  animation-play-state: paused;
+}
+.web:hover #web-m {
+  animation-play-state: running;
+}
+@keyframes web-scrn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.5);
+  }
+}
+
+#app-m-left{
+    animation-name: rect-l;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;  
+    animation-play-state: paused;
+}
+#app-m-right{
+    animation-name: rect-r;
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;  
+    animation-play-state: paused;
+}
+.app:hover #app-m-left{
+  animation-play-state: running;
+}
+.app:hover #app-m-right{
+  animation-play-state: running;
+}
+@keyframes rect-l {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(5px);
+  }
+}
+@keyframes rect-r {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-5px);
+  }
+}
+
+#electronics-m{
+    animation-name: connect;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;  
+    animation-play-state: paused;
+}
+.electronics:hover #electronics-m{
+  animation-play-state: running;
+}
+@keyframes connect {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(25px);
+  }
+}
+
+#design-m{
+  animation-name: penmove;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+  animation-play-state: paused;
+}
+.design:hover #design-m {
+  animation-play-state: running;
+}
+@keyframes penmove {
+  from {
+    transform: rotate(-75deg);
+  }
+  to {
+    transform: rotate(75deg);
+  }
+}
+
+.cv:hover #cv-m {
+  animation-play-state: running;
+}
+#cv-m{
+	animation-name: cv-beat;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    animation-direction: alternate;  
+    animation-play-state: paused;
+    transform-origin: center;
+}
+@keyframes cv-beat {
+    0% {transform: scale(1);} 
+    50% {transform: scale(0.8);}   
+}

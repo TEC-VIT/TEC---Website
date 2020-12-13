@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import AboutUsSection from '../../Components/AboutUsSection/AboutUsSection';
 import BoardSection from '../../Components/BoardSection/BoardSection';
 import ContactUs from '../../Components/ContactUsSection/ContactUs';
+import DomainSection from '../../Components/DomainSection/DomainSection';
 import EventsSection from '../../Components/EventsSection/EventsSection';
 import NavBar from '../../Components/NavBar/NavBar';
 
@@ -43,6 +44,7 @@ export default class HomePage extends Component {
 
                 <AboutUsSection />
                 <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
+                <DomainSection />
                 <BoardSection boardMembers={this.state.board} />
                 <ContactUs />
 
