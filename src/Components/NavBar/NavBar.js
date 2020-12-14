@@ -53,7 +53,7 @@ const NavBar = () => {
     const handleClick = () => {
         if(navbar.classList.value.includes('nav-visible')) {
             navbar.classList.remove('nav-visible')
-            navbar.classList.add('nav-links')
+            navbar.classList.value.includes('nav-links') ? console.log() : navbar.classList.add('nav-links')
             navBg.style.opacity = 0
             navBg.style.right = '6rem'
             navBg.style.width = '6rem'
