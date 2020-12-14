@@ -44,7 +44,7 @@ export default class HomePage extends Component {
 
                 <AboutUsSection />
                 <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
-                <DomainSection />
+                
                 <BoardSection boardMembers={this.state.board} />
                 <ContactUs />
 
