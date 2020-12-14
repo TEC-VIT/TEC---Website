@@ -1,5 +1,7 @@
 import React from 'react'
 
+import 'aos'
+
 import userImg from '../../Assets/userimg.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,7 +13,7 @@ import './BoardMemberCard.Styles.scss'
 const BoardMemberCard = ({member}) => {
     return (
         <div className='board-member-card'>
-            <figure className='img-container'>
+            <figure className='img-container' data-aos="zoom-in">
                 <img src={userImg} alt={member.name} className='img' />
                 <figcaption className='links'>
                     <a className='linkedin' href='https://www.linkedin.com/' target='_blank' rel='noopener noreferrer'>

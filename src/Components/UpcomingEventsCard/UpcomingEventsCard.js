@@ -1,11 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import 'aos';
+
 import './UpcomingEventsCard.Styles.scss'
 
 const UpcomingEventsCard = ({upcomingEvents}) => {
     return (
-        <div className='upcoming-events-container'>
+        <div className='upcoming-events-container' data-aos="fade-left">
             <h1 className='heading'>Upcoming events</h1>
             <div className='upcoming-events'>
                 {

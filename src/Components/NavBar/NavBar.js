@@ -9,20 +9,6 @@ import './NavBar.Styles.scss'
 
 const NavBar = () => {
     const location = useLocation()
-    let root=document.documentElement;
-    
-    window.addEventListener("click",()=>{
-        if(open){root.style.setProperty('--mobdisp','flex')}
-        else if(open==false){root.style.setProperty('--mobdisp','none') }
-    })
-
-    window.addEventListener("scroll",()=>{
-        if(open)
-        {setOpen(false)
-            root.style.setProperty('--mobdisp','none')}
-    })
-
-    const [open,setOpen]=useState(false);
 
     useEffect(()=> {
         if (location.hash) {
@@ -41,19 +27,58 @@ const NavBar = () => {
         })
     }
 
+    const navbar = document.getElementById('navbar')
+    const navBg = document.getElementsByClassName('nav-bg')[0]
+    const navCheckbox = document.getElementById('checkbox')
     const [visible, setVisible] = useState(true)
+    var isScrolling = null
 
-    var body = document.getElementById('root')
-    body.addEventListener('wheel', (e) => {
-        e.deltaY > 0 ? setVisible(false) : setVisible(true)
-    })                   
+    window.addEventListener('scroll', (e) => {
+        if(navbar && navBg && navCheckbox){
+            navbar.classList.remove('nav-visible')
+            navbar.classList.add('nav-links')
+            navBg.style.opacity = 0
+            navBg.style.right = '6rem'
+            navBg.style.width = '6rem'
+            navBg.style.height = '6rem'
+            navCheckbox.checked = false
+        }
+        setVisible(false)
+        window.clearTimeout( isScrolling )
+        isScrolling = setTimeout(() => {
+            setVisible(true)
+        }, 300)
+    }, false)
+
+    const handleClick = () => {
+        if(navbar.classList.value.includes('nav-visible')) {
+            navbar.classList.remove('nav-visible')
+            navbar.classList.add('nav-links')
+            navBg.style.opacity = 0
+            navBg.style.right = '6rem'
+            navBg.style.width = '6rem'
+            navBg.style.height = '6rem'
+            navCheckbox.checked = false
+        }
+        else{
+            setTimeout(() => {
+                navbar.classList.add('nav-visible')
+                navbar.classList.remove('nav-links')
+            }, 500)
+            navBg.style.opacity = 1
+            navBg.style.transform = 'scale(2)'
+            navBg.style.width = '100vh'
+            navBg.style.height = '100vh'
+            navCheckbox.checked = true
+        }
+    }
 
     return (
         <nav className='navbar' style={{opacity: `${visible ? '1' : '0'}`, top: `${visible ? '0' : '-7rem'}`}}>
             <Link className='nav-logo' to='/'>
                 <img src={logo} alt='logo' />
             </Link>
-            <div className='nav-links' >
+            <div className='nav-links' id='navbar'>
                 <Link className='nav-option' to='/'>Home</Link>
                 <Link className='nav-option' to="/#about-us-section">About Us</Link>
                 <Link className='nav-option' to='/#events-section'>Events</Link>
@@ -61,22 +86,9 @@ const NavBar = () => {
                 <Link className='nav-option' to='/#board-section'>Board</Link>
                 <Link className='nav-option' to='/#contact-us-section'>Contact Us</Link>
             </div>
-
-            <div className='nav-links_mob' >
-                <Link className='nav-option1' to='/'>Home</Link>
-                <Link className='nav-option1' to="/#about-us-section">About Us</Link>
-                <Link className='nav-option1' to='/#events-section'>Events</Link>
-                <Link className='nav-option1' to='/#projects-section'>Projects</Link>
-                <Link className='nav-option1' to='/#board-section'>Board</Link>
-                <Link className='nav-option1' to='/#contact-us-section'>Contact Us</Link>
-            </div>            
-        
-            < div className={ open ? "menu open" : "menu"} onClick = {() => { setOpen(!open); }}>     
-            
-                <div className='hamburger'>            
-                </div> 
-            </ div>        
-            
+            <input id='checkbox' type='checkbox' className='checkbox' />
+            <button className='nav-btn' onClick={() => handleClick()}><span className='nav-icon'>&nbsp;</span></button>
+            <div className='nav-bg'><span>&nbsp;</span></div>
         </nav>
     )
 }
