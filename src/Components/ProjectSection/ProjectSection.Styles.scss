@@ -43,3 +43,45 @@
         }
     }
 }
+
+@media only screen and (max-width: 950px){
+    .projects-section{
+        .projects{
+            &-container{
+                width: 95%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .projects-section{
+        .projects{
+            &-container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .projects-section{
+        .section-heading{
+            margin: 5rem 0 2rem 0;
+        }
+
+        .projects{
+            &-container{
+                width: 90%;
+                overflow-x: scroll;
+                grid-template-columns: repeat(1, 1fr);
+                
+            }
+        }
+
+        .btn{
+            font-size: 12px;
+            line-height: 127.2%;
+        }
+    }
+}
