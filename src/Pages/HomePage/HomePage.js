@@ -7,6 +7,9 @@ import DomainSection from '../../Components/DomainSection/DomainSection';
 import EventsSection from '../../Components/EventsSection/EventsSection';
 import NavBar from '../../Components/NavBar/NavBar';
 
+import ProjectData from '../../Assets/Data/Projects'
+import ProjectSection from '../../Components/ProjectSection/ProjectSection'
+
 import './HomePage.Styles.scss'
 
 export default class HomePage extends Component {
@@ -26,9 +29,10 @@ export default class HomePage extends Component {
         .then(res => res.json())
         .then(data => this.setState({
             events: data.splice(0,4),
-            projects: data.splice(0,4),
+            // projects: data.splice(0,4),
             upcommingEvents: [{event: "WebDev Session", time: "30-11-2020"}, {event: "WebDev Session", time: "30-11-2020"}]
         }))
+        
 
         fetch('https://jsonplaceholder.typicode.com/users')
         .then(res => res.json())
@@ -44,7 +48,7 @@ export default class HomePage extends Component {
 
                 <AboutUsSection />
                 <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
-                
+                <ProjectSection projects={ProjectData}/>
                 <BoardSection boardMembers={this.state.board} />
                 <ContactUs />
 
