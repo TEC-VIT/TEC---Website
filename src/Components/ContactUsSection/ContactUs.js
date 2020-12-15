@@ -18,7 +18,6 @@ export default class ContactUs extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault()
-        console.log("I am Handle Function")
         const {name, email, message} = e.target
           
 
@@ -43,22 +42,22 @@ export default class ContactUs extends Component {
             console.log(this.state)
             axios.post("http://localhost:5000/adduser",this.state)
         .then(response=>{
-            console.log(response)
+            name.value = ''
+            email.value = ''
+            message.value = ''
+            document.getElementById('submit-btn').innerHTML = 'DONE!'
+            document.getElementById('submit-btn').style.background = 'white'
+            document.getElementById('submit-btn').style.color = '#161616'
         }) 
         .catch(err=>{
-            console.log(err)
+            alert('Error With Submission')
         })
         })
-        
     }
 
     render() {
         return (
             <section className='contact-us-section'>
-                <div className='links'>
-                    <a href='https://instagram.com/' target='_blank' rel='noopener noreferrer'>Join</a>
-                    <a href='mailto:yashjustyash@outlook.com' target='_blank' rel='noopener noreferrer'>Contact</a>
-                </div>
                 <div className='content'>
                     <div className='heading'>
                         <h1>Reach out to us!</h1>
@@ -68,7 +67,7 @@ export default class ContactUs extends Component {
                         <input name='name' type='text' placeholder='Enter your name' required />
                         <input name='email' type='email' placeholder='Enter your Email id' required />
                         <textarea name='message' rows='5' placeholder='Enter your message...' required />
-                        <button type='submit'>SUBMIT</button>
+                        <button id='submit-btn' type='submit'>SUBMIT</button>
                     </form>
                 </div>
             </section>

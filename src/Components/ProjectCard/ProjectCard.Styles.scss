@@ -1,6 +1,5 @@
 .project-card{
-    box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);
-    background: white;
+    background: transparent;
     .card{
         transition: transform 1s;
         transform-style: preserve-3d;
@@ -20,6 +19,8 @@
     
 
       .flip-card-front, .flip-card-back {
+        
+        box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);
         // position: absolute;
         max-width: 100%;
         height: auto;
@@ -27,14 +28,16 @@
         
       }
       .flip-card-back {
+        height: 100%;
+        position: absolute;
+        top: 0;
         background-color: white;
         color: black;
         transform: rotateY(180deg);
-        padding-bottom: 3rem;
         align-content: center;
         display: flex;
         flex-direction: column;
-        
+        justify-content: center;
       }
     .project-img{
         width: calc(100% - 2rem);

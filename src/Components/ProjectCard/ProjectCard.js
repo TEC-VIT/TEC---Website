@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 import './ProjectCard.Styles.scss'
 
 const ProjectCard = (props) => {

@@ -5,8 +5,7 @@ import 'aos'
 import userImg from '../../Assets/userimg.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faAt } from '@fortawesome/free-solid-svg-icons'
+import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 import './BoardMemberCard.Styles.scss'
 
@@ -22,8 +21,8 @@ const BoardMemberCard = ({member}) => {
                     <a className='instagram' href='https://www.instagram.com/' target='_blank' rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faInstagram} />
                     </a>
-                    <a className='email' href='mailto:yashjustyash@outlook.com' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faAt} />
+                    <a className='github' href='https://www.github.com/' target='_blank' rel='noopener noreferrer'>
+                        <FontAwesomeIcon icon={faGithub} />
                     </a>
                 </figcaption>
             </figure>
