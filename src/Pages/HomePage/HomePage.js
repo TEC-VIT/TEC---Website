@@ -6,8 +6,6 @@ import ContactUs from '../../Components/ContactUsSection/ContactUs';
 import DomainSection from '../../Components/DomainSection/DomainSection';
 import EventsSection from '../../Components/EventsSection/EventsSection';
 import NavBar from '../../Components/NavBar/NavBar';
-
-import ProjectData from '../../Assets/Data/Projects'
 import ProjectSection from '../../Components/ProjectSection/ProjectSection'
 
 import './HomePage.Styles.scss'
@@ -18,7 +16,6 @@ export default class HomePage extends Component {
         this.state = {
             upcommingEvents: [],
             events: [],
-            projects: [],
             board: [],
             scroll: 0
         }
@@ -49,7 +46,7 @@ export default class HomePage extends Component {
                 <AboutUsSection />
                 <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
                 <DomainSection />
-                <ProjectSection projects={ProjectData}/>
+                <ProjectSection />
                 <BoardSection boardMembers={this.state.board} />
                 <ContactUs />
 
