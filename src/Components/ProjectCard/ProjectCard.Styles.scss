@@ -1,5 +1,6 @@
 .project-card{
     background: transparent;
+
     .card{
         transition: transform 1s;
         transform-style: preserve-3d;
@@ -25,7 +26,6 @@
         max-width: 100%;
         height: auto;
         backface-visibility: hidden;
-        
       }
       .flip-card-back {
         height: 100%;
@@ -38,6 +38,10 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        .btn{
+          font-size: 14px;
+        }
       }
     .project-img{
         width: calc(100% - 2rem);
@@ -67,4 +71,13 @@
         margin: 0 1.5rem;
         padding-bottom: 1rem;
     }
+}
+
+@media only screen and (max-width: 600px){
+  .project-card{
+    .project-description{
+      font-size: 14px;
+      line-height: 110%;
+    }
+  }
 }

@@ -40,7 +40,7 @@ export default class ContactUs extends Component {
             message: message.value
         }, () => {
             console.log(this.state)
-            axios.post("http://localhost:5000/adduser",this.state)
+            axios.post("https://tec-offwebsite-backend.herokuapp.com/adduser",this.state)
         .then(response=>{
             name.value = ''
             email.value = ''
