@@ -9,6 +9,7 @@ import './NavBar.Styles.scss'
 
 const NavBar = () => {
     const location = useLocation()
+    const [visible, setVisible] = useState(false)
 
     useEffect(()=> {
         if (location.hash) {
@@ -17,6 +18,12 @@ const NavBar = () => {
         window.scrollTo({top:0,left:0, behavior: "smooth"})
         }
     }, [location])
+
+    useEffect(() => {
+        setTimeout(() => {
+            setVisible(true)
+        }, 700)
+    }, [])
 
     const scrollTo = (section) => {
         scroller.scrollTo(section, {
@@ -30,7 +37,6 @@ const NavBar = () => {
     const navbar = document.getElementById('navbar')
     const navBg = document.getElementsByClassName('nav-bg')[0]
     const navCheckbox = document.getElementById('checkbox')
-    const [visible, setVisible] = useState(true)
     var isScrolling = null
 
     window.addEventListener('scroll', (e) => {

@@ -5,6 +5,7 @@ import BoardSection from '../../Components/BoardSection/BoardSection';
 import ContactUs from '../../Components/ContactUsSection/ContactUs';
 import DomainSection from '../../Components/DomainSection/DomainSection';
 import EventsSection from '../../Components/EventsSection/EventsSection';
+import LandingSection from '../../Components/LandingSection/LandingSection';
 import NavBar from '../../Components/NavBar/NavBar';
 import ProjectSection from '../../Components/ProjectSection/ProjectSection'
 
@@ -40,9 +41,7 @@ export default class HomePage extends Component {
         return (
             <div>
                 <NavBar />
-                <section className='header'>
-                </section>
-
+                <LandingSection />
                 <AboutUsSection />
                 <EventsSection events={this.state.events} upcomingEvents={this.state.upcommingEvents} />
                 <DomainSection />
