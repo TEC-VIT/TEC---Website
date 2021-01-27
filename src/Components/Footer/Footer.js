@@ -2,7 +2,8 @@ import React from 'react'
 import { useLocation } from 'react-router-dom'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faMediumM, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faLinkedin, faMediumM } from '@fortawesome/free-brands-svg-icons'
+import { faAt } from '@fortawesome/free-solid-svg-icons'
 
 import SectionHeading from '../SectionHeading/SectionHeading'
 
@@ -33,7 +34,7 @@ export const Footer = () => {
                         <FontAwesomeIcon className='instagram' icon={faInstagram} />
                     </a>,
                     <a style={style} key='github-link' className='icon' href='mailto:yashjustyash@outlook.com' target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon className='github' icon={faGithub} />
+                        <FontAwesomeIcon className='github' icon={faAt} />
                     </a>,
                 ]} dark={location.pathname === '/' ? true : false} />
             </div>

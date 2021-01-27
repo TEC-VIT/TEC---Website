@@ -25,14 +25,15 @@
     }
 
     .nav-links{
-        margin-right: 7rem;
+        margin-right: 6rem;
 
         .nav-option{
             color: white;
             text-decoration: none;
+            padding: 1rem;
 
             &:not(:last-child){
-                margin-right: 6rem;
+                margin-right: 5rem;
             }
 
             &:hover,:active{

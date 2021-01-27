@@ -1,5 +1,5 @@
 .domain{
-    min-width: 22rem;
+    min-width: 30rem;
     background: #272727;
     display: inline-block;
     margin: 0 1rem;
@@ -192,7 +192,7 @@
 
 @media only screen and (max-width: 470px){
   .domain{
-      width: 15rem;
+      min-width: 15rem;
       margin: 0 3px;
 
       .icon-wrap{

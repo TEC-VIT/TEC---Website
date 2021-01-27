@@ -3,6 +3,7 @@ import React from 'react';
 import VisibilitySensor from 'react-visibility-sensor'
 import CountUp from 'react-countup'
 
+// Styles
 import './AboutUsWorkCard.Styles.scss'
 
 const AboutUsWorkCard = ({label, number}) => {
@@ -19,4 +20,5 @@ const AboutUsWorkCard = ({label, number}) => {
         </CountUp>
     );
 }
+
 export default AboutUsWorkCard;

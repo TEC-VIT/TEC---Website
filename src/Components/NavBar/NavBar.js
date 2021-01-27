@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react'
-
 import { Link, useLocation } from 'react-router-dom'
 import { scroller } from 'react-scroll'
 
+// Data
 import logo from '../../Assets/TECLogo.png'
 
+// Styles
 import './NavBar.Styles.scss'
 
 const NavBar = () => {
     const location = useLocation()
     const [visible, setVisible] = useState(false)
 
+    // Navigation
     useEffect(()=> {
         if (location.hash) {
             scrollTo(location.hash.slice(1))
@@ -19,12 +21,14 @@ const NavBar = () => {
         }
     }, [location])
 
+    // Visibility of NavBar
     useEffect(() => {
         setTimeout(() => {
             setVisible(true)
         }, 700)
     }, [])
 
+    // Scroll Function
     const scrollTo = (section) => {
         scroller.scrollTo(section, {
             duration: 800,
@@ -38,7 +42,6 @@ const NavBar = () => {
     const navBg = document.getElementsByClassName('nav-bg')[0]
     const navCheckbox = document.getElementById('checkbox')
     var isScrolling = null
-
     window.addEventListener('scroll', (e) => {
         if(navbar && navBg && navCheckbox){
             navbar.classList.remove('nav-visible')
@@ -56,6 +59,7 @@ const NavBar = () => {
         }, 300)
     }, false)
 
+    // Nav-Bar mobile view btn
     const handleClick = () => {
         if(navbar.classList.value.includes('nav-visible')) {
             navbar.classList.remove('nav-visible')

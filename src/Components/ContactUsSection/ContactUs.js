@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 
-
 import './ContactUs.Styles.scss'
 
-const axios=require('axios').default
+const axios = require('axios').default
 
 export default class ContactUs extends Component {
     constructor(){
@@ -13,45 +12,28 @@ export default class ContactUs extends Component {
             email: '',
             message: ''
         }
-      
     }
 
     handleSubmit = (e) => {
         e.preventDefault()
         const {name, email, message} = e.target
-          
-
-        /*axios({
-            method: 'post',
-            url: '/adduser',
-            data:[ {
-               "name":name,
-               "email":email,
-               "message":message
-            }]
-          });*/
-        
-            
-        
-
         this.setState({
             name: name.value,
             email: email.value,
             message: message.value
         }, () => {
-            console.log(this.state)
             axios.post("https://tec-offwebsite-backend.herokuapp.com/adduser",this.state)
-        .then(response=>{
-            name.value = ''
-            email.value = ''
-            message.value = ''
-            document.getElementById('submit-btn').innerHTML = 'DONE!'
-            document.getElementById('submit-btn').style.background = 'white'
-            document.getElementById('submit-btn').style.color = '#161616'
-        }) 
-        .catch(err=>{
-            alert('Error With Submission')
-        })
+            .then(response=>{
+                name.value = ''
+                email.value = ''
+                message.value = ''
+                document.getElementById('submit-btn').innerHTML = 'DONE!'
+                document.getElementById('submit-btn').style.background = 'white'
+                document.getElementById('submit-btn').style.color = '#161616'
+            }) 
+            .catch(err=>{
+                alert('Error With Submission')
+            })
         })
     }
 

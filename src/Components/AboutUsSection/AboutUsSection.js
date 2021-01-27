@@ -1,13 +1,17 @@
 import React, { Component } from 'react'
 
+// Animations
 import 'aos'
 
+// Components
 import SectionHeading from '../SectionHeading/SectionHeading'
 import AboutUsWorkCard from '../AboutUsWorkCard/AboutUsWorkCard'
 import { CircleSmall, Line } from '../BackgroundObjects/BackgroungObjects'
 
+// Data
 import AboutUs from '../../Assets/Data/AboutUs'
 
+// Styles
 import './AboutUsSection.Styles.scss'
 
 class AboutUsSection extends Component{

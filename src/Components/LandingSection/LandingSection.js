@@ -1,17 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
 import 'aos'
 
+// Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
+// Styles
 import './LandingSection.Styles.scss'
 
 const LandingSection = () => {
+    // Click to Scroll Funtion
     const handleClick = () => {
         window.scrollTo({top:window.innerHeight, behavior: "smooth"})
     }
+    
     return (
         <div className='landing-section'>
             <svg className='heading' viewBox="0 0 960 300">

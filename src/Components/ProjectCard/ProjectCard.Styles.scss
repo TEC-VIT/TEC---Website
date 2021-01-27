@@ -8,8 +8,10 @@
         
     }
     &:hover {
+      cursor: pointer;
+
         .card {
-            transform: rotateY(180deg);
+            transform: rotateY(-180deg);
             // .flip-card-front{
             //     display: none;
             // }
@@ -18,7 +20,6 @@
         
     }
     
-
       .flip-card-front, .flip-card-back {
         
         box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);

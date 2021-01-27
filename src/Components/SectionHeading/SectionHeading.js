@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Styles
 import './SectionHeading.Styles.scss'
 
 const SectionHeading = ({heading, center, dark}) => {
