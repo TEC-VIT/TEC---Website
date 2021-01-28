@@ -4,16 +4,16 @@ import 'aos'
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 // Styles
 import './LandingSection.Styles.scss'
 
 const LandingSection = () => {
     // Click to Scroll Funtion
-    const handleClick = () => {
-        window.scrollTo({top:window.innerHeight, behavior: "smooth"})
-    }
+    // const handleClick = () => {
+    //     window.scrollTo({top:window.innerHeight, behavior: "smooth"})
+    // }
     
     return (
         <div className='landing-section'>
