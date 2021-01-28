@@ -1,6 +1,45 @@
 .event-card{
     box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);
-    background: white;
+    background: transparent;
+
+    .card{
+        transition: transform 1s;
+        transform-style: preserve-3d;
+        // padding: 3rem;    
+        
+    }
+
+    &:hover {
+        cursor: pointer;
+  
+          .card {
+              transform: rotateY(-180deg);
+              // .flip-card-front{
+              //     display: none;
+              // }
+            }         
+    }
+    .flip-card-front, .flip-card-back {
+        
+        box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);
+        // position: absolute;
+        max-width: 100%;
+        height: auto;
+        backface-visibility: hidden;
+      }
+      .flip-card-back {
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        color: black;
+        transform: rotateY(180deg);
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
 
     .event-img{
         width: calc(100% - 2rem);
@@ -8,6 +47,17 @@
     }
 
     .event-description{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.8rem;
+        line-height: 127.2%;
+        text-align: justify;
+        letter-spacing: -0.035em;
+        margin: 0 1.5rem;
+        padding-bottom: 1rem;
+    }
+    .event-title{
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
