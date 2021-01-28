@@ -4,6 +4,10 @@
     display: inline-block;
     margin: 0 1rem;
 
+    &:hover{
+        cursor: pointer;
+    }
+
     .icon-wrap{
         height: 7.4rem;
         padding: 1.2rem;

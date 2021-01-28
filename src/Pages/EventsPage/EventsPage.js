@@ -20,7 +20,7 @@ class EventsPage extends Component {
         return (
             <div className='events-page'>
                 <NavBar />
-                <SectionHeading heading='Upcoming Sessions' />
+                <SectionHeading heading='Upcoming Events' />
                 <div className='upcoming-events-container'>
                 {
                     this.state.upcomingEvents.map(event => <UpcomingEventSection key={event.id} event={event} />)
