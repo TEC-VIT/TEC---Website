@@ -24,6 +24,10 @@
         .upcoming-event{
             padding: 2.3rem 2.7rem;
 
+            &:hover{
+                cursor: default;
+            }
+
             h1{
                 font-family: Poppins;
                 font-style: normal;
