@@ -16,6 +16,8 @@ const EventCard = ({event}) => {
                     <p className='event-description'>{event.body}</p>
                 </div>
             </article>
+            
+            
         </div>
     )
 }
