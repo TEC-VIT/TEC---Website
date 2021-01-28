@@ -3,6 +3,7 @@
     background: #272727;
     display: inline-block;
     margin: 0 1rem;
+    -webkit-tap-highlight-color: transparent;
 
     &:hover{
         cursor: pointer;

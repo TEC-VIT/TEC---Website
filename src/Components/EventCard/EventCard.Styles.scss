@@ -1,6 +1,7 @@
 .event-card{
     perspective: 1500px;
     background: transparent;
+    -webkit-tap-highlight-color: transparent;
 
     .card{
         transition: transform 1s;

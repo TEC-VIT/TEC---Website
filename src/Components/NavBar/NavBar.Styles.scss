@@ -18,6 +18,7 @@
         height: 7rem;
         width: 10rem;
         margin-left: 6rem;
+        -webkit-tap-highlight-color: transparent;
 
         img{
             width: 100%;
@@ -54,6 +55,7 @@
         position: absolute;
         right: 6rem;
         z-index: 99;
+        -webkit-tap-highlight-color: transparent;
 
         .nav-icon{
             position: relative;
@@ -134,6 +136,7 @@
             font-weight: normal;
             font-size: 2.5rem;
             line-height: 20px;
+            -webkit-tap-highlight-color: transparent;
 
             &:not(:last-child){
                 margin-bottom: 6rem;

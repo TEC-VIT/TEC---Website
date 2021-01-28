@@ -138,19 +138,20 @@
         url(../../Assets/AboutUs.jpg);
         background-size: auto 75%;
         background-position: 50% 60%;
+        height: 100vh;
 
         .heading{
-            top: 80%;
+            top: 75%;
             .heading-primary{
-                font-size: 2.6rem;
-                line-height: 3rem;
+                font-size: 3rem;
+                line-height: 3.5rem;
             }
             .heading-secondary{
-                font-size: 1.4rem;
-                line-height: 1.6rem;
+                font-size: 1.8rem;
+                line-height: 2rem;
             }
             .heading-btn{
-                font-size: 1.3rem;
+                font-size: 1.4rem;
                 border: 1px solid white;
                 padding: 1rem 1.7rem;
                 transition: all 0.5s;
