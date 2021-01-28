@@ -136,9 +136,8 @@
         background-color: #161616;
         background-image: linear-gradient(181.51deg, #161616 2.5%, rgba(0, 0, 0, 0.36) 98.72%),
         url(../../Assets/AboutUs.jpg);
-        background-size: auto 75%;
-        background-position: 50% 60%;
-        height: 100vh;
+        background-position: 50% bottom;
+        max-height: 100vh;
 
         .heading{
             top: 75%;

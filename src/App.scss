@@ -32,3 +32,51 @@ body::-webkit-scrollbar-thumb{
         font-size: 50%;
     }
 }
+
+.loader{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+
+    p{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #00FF19;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.12em;
+    }
+
+    .arduino{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .spinner{
+        border: 4px solid gray;
+        border-top: 4px solid #00FF19;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        bottom: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+        animation: spin 2s linear infinite;
+    }
+}
+
+@keyframes spin{
+    0%{transform: translateX(-50%) rotate(0deg);}
+    100%{transform: translateX(-50%) rotate(360deg);}
+}
