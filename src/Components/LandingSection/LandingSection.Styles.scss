@@ -3,9 +3,10 @@
     position: relative;
     height: 100vh;
     background-image: linear-gradient(90.05deg, #161616 28.76%, rgba(0, 0, 0, 0.29) 97.28%),
-    url(../../Assets/AboutUs.jpg);
+    url(../../Assets/LandingImg.jpg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
 
     .heading{
@@ -135,7 +136,7 @@
     .landing-section{
         background-color: #161616;
         background-image: linear-gradient(181.51deg, #161616 2.5%, rgba(0, 0, 0, 0.36) 98.72%),
-        url(../../Assets/AboutUs.jpg);
+        url(../../Assets/LandingImg.jpg);
         background-position: 50% bottom;
         max-height: 100vh;
 

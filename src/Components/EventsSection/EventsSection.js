@@ -17,8 +17,14 @@ class EventsSection extends Component {
         super()
         this.state = {
             events: Events,
-            upcomingEvents:UpcommingEvents
+            upcomingEvents:UpcommingEvents,
+            limit: 6
         }
+    }
+
+    onLoadMore = () => {
+        let extraLength = window.innerWidth >= 470 ? 3 : 5
+        this.setState({limit: this.state.limit + extraLength > this.state.events.length ? this.state.events.length : this.state.limit + extraLength})
     }
 
     render(){
@@ -28,12 +34,17 @@ class EventsSection extends Component {
                 <div className='events'>
                     <div className='events-container'>
                     {
-                        this.state.events.map((event, index) => <EventCard key={index+1} event={event} />)
+                        this.state.events.slice(0, this.state.limit).map((event, index) => <EventCard key={index+1} event={event} />)
                     }
                     </div>
                     { this.state.upcomingEvents.length ? <UpcomingEventsCard upcomingEvents={this.state.upcomingEvents} /> : null}
                 </div>
-                <Link to='/events'><button className='btn'>Upcoming Sessions &#8594;</button></Link>
+                <div className='buttons'>
+                    {
+                        this.state.events.length !== this.state.limit ? <button className='btn load-more-btn' onClick={() => {this.onLoadMore()}}>Load More &#8594; </button> : null
+                    }
+                    <Link to='/events'><button className='btn upcomming-sessions-btn'>Upcoming Sessions &#8594;</button></Link>
+                </div>
                 <div className='circle-1'>
                     <CircleSmall />
                 </div>

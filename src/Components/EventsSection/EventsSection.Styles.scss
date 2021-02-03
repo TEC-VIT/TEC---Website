@@ -26,10 +26,15 @@
         }
     }
 
+    .buttons{
+        max-width: 90%;
+        margin: 2rem auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
     .btn{
-        margin: 3rem 0 0 50%;
         width: fit-content;
-        transform: translateX(-50%);
         border: none;
         outline: none;
         background: #161616;
@@ -75,7 +80,7 @@
                 position: relative;
             }
         }
-        .btn{
+        .upcomming-sessions-btn{
             display: none;
             visibility: hidden;
         }
@@ -92,6 +97,9 @@
             &-container{
                 width: 95%;
             }
+        }
+        .buttons{
+            width: 100%;
         }
     }
 }
@@ -116,7 +124,7 @@
             &-container{
                 width: 90%;
                 overflow-x: scroll;
-                grid-template-columns: repeat(5, 300px);
+                grid-template-columns: repeat(6, 300px);
                 
             }
         }

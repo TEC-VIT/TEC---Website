@@ -1,31 +1,31 @@
 import AboutUsVideo from '../AboutUs.mp4'
-import OurVisionImage from '../AboutUs.jpg'
+import OurVisionImage from '../ourvision.JPG'
 
 const aboutUsData = {
-    aboutUs: "We believe that the success of any organization depends on the unity amongst the people in it. TEC is a well-knit group of 81 members and through regular group discussions and meetings, the smooth working of the club is ensured. Our intense work is well complemented with some fun. This is done by organizing a few trips and parties round the year. Our motto of helping others learn is further strengthened as the seniors act as mentors for the juniors. In addition to this, several sessions are also kept for the junior members of the club that enable them further to achieve their dreams. The Electronics Club of VIT does not tell you what your goals should be, but surely helps you to move closer to them.",
+    aboutUs: 'Founded in 2012 TEC-VIT is the brainchild of two students who had an unwavering passion for electronics. In a 9 year journey, TEC-VIT has been molded into one of the best technical clubs with the help of our meritorious alumni. TEC-VIT is one of the most proactive clubs at VIT as our 105 members strong team conducted a grand scale hackathon named "Parallax", multiple graVITas events, numerous technical sessions, and a plethora of projects. At TEC, we always stand by our motto of "Learners today, leaders tomorrow", implemented with our seniors being mentors to the juniors. TEC-VIT is not merely a club, it is where you find yourself, realize your dreams, and work hard to fulfill them. You join TEC not as a member but as a part of our family!',
     aboutUsVideo: AboutUsVideo,
-    ourVision: "We believe that the success of any organization depends on the unity amongst the people in it. TEC is a well-knit group of 81 members and through regular group discussions and meetings, the smooth working of the club is ensured. and through regular group discussions and meetings, the smooth working of the club is ensured. Our intense work is well complemented with some fun. This is done by organizing a few trips and parties round the year.",
+    ourVision: "At TEC-VIT we strive to bring the ‘technological best’ in you. We aim to fill in the void of Electronics hobbyists in the institute by providing a platform where the theory learnt in classes can be applied in the real world. Through various educational programs like project expos and practical sessions, we aim to equip budding engineers with the latest and the best technologies out there. While technical excellence remains a constant endeavor, we always try to keep the team spirit up and high. The club believes that individual importance is a key to success.",
     ourVisionImage: OurVisionImage,
     works: [
         {
             id: 1,
-            label : "members",
-            number : 45
+            label: "members",
+            number: 45
         },
         {
-            id :2,
-            label : "projects",
-            number : 76
+            id: 2,
+            label: "projects",
+            number: 76
         },
         {
-            id : 3,
-            label : "sessions",
-            number : 34
+            id: 3,
+            label: "sessions",
+            number: 34
         },
         {
-            id : 4,
-            label : "events",
-            number : 200
+            id: 4,
+            label: "events",
+            number: 200
         }
     ]
 }
