@@ -48,7 +48,7 @@ const Events = [
     {
         id: 7,
         poster: AavnikPoster,
-        title: "AAnvik",
+        title: "Aanvik",
         body: "TEC's annual exposition aimed at tuning futuristic ideas into reality. A culmination of ideas and an enthralling display of projects based on real-world problems in various domains as well as a sneak peek into the future of technology."
     },
     {
