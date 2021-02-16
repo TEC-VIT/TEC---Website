@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './ProjectCard.Styles.scss'
 
 const ProjectCard = (props) => {
@@ -15,6 +14,8 @@ const ProjectCard = (props) => {
                         <img className='project-img' src={props.poster} alt={'project poster'} />
                     </picture>                    
                     <h1 className='project-name'>{props.name} </h1>
+                    <h3 className='project-intro'>{props.intro}</h3>
+                    <h4 className='project-date'>Date Created: {props.date}</h4>
                 </div>
                 <div className='flip-card-back'>
                     <p className='project-description'>{props.description}</p>

@@ -27,7 +27,7 @@ class ProjectSection extends Component {
                 <div className='projects'>
                     <div className='projects-container'>
                         {
-                            this.state.projects.slice(0, this.state.limit).map(project => <ProjectCard key={project.id} poster={project.poster} description={project.description} name={project.name} />)
+                            this.state.projects.slice(0, this.state.limit).map(project => <ProjectCard key={project.id} poster={project.poster} description={project.description} name={project.name} intro={project.intro} date={project.date} />)
                         }
                     </div>
                 </div>
