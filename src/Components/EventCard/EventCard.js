@@ -10,7 +10,6 @@ const EventCard = ({event}) => {
                     <picture className='card-background'>
                         <img className='event-img' src={event.poster} alt='event_poster' />
                     </picture>                    
-                    <h1 className='event-title'>{event.title} </h1>
                 </div>
                 <div className='flip-card-back'>
                     <p className='event-description'>{event.body}</p>
