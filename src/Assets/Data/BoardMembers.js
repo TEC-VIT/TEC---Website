@@ -82,7 +82,7 @@ const BoardMembers = [
         post: 'Projects and Events Head',
         image: ProjectsHead,
         links: {
-            instagram: 'https://www.instagram.com/',
+            instagram: 'https://www.instagram.com/artiishiii.__/',
             linkedIn: 'https://www.linkedin.com/in/ishita-kabra-3b305818b/',
             github: 'https://github.com/ishita1805'
         }
