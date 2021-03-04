@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import { scroller } from 'react-scroll'
 
 // Data
-import logo from '../../Assets/TECLogo.png'
+import logo from '../../Assets/TECLogo.webp'
 
 // Styles
 import './NavBar.Styles.scss'
@@ -13,11 +13,11 @@ const NavBar = () => {
     const [visible, setVisible] = useState(false)
 
     // Navigation
-    useEffect(()=> {
+    useEffect(() => {
         if (location.hash) {
             scrollTo(location.hash.slice(1))
         } else {
-        window.scrollTo({top:0,left:0, behavior: "smooth"})
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
         }
     }, [location])
 
@@ -43,7 +43,7 @@ const NavBar = () => {
     const navCheckbox = document.getElementById('checkbox')
     var isScrolling = null
     window.addEventListener('scroll', (e) => {
-        if(navbar && navBg && navCheckbox){
+        if (navbar && navBg && navCheckbox) {
             navbar.classList.remove('nav-visible')
             navbar.classList.add('nav-links')
             navBg.style.opacity = 0
@@ -53,7 +53,7 @@ const NavBar = () => {
             navCheckbox.checked = false
         }
         setVisible(false)
-        window.clearTimeout( isScrolling )
+        window.clearTimeout(isScrolling)
         isScrolling = setTimeout(() => {
             setVisible(true)
         }, 300)
@@ -61,7 +61,7 @@ const NavBar = () => {
 
     // Nav-Bar mobile view btn
     const handleClick = () => {
-        if(navbar.classList.value.includes('nav-visible')) {
+        if (navbar.classList.value.includes('nav-visible')) {
             navbar.classList.remove('nav-visible')
             navbar.classList.value.includes('nav-links') ? console.log() : navbar.classList.add('nav-links')
             navBg.style.opacity = 0
@@ -70,7 +70,7 @@ const NavBar = () => {
             navBg.style.height = '6rem'
             navCheckbox.checked = false
         }
-        else{
+        else {
             setTimeout(() => {
                 navbar.classList.add('nav-visible')
                 navbar.classList.remove('nav-links')
@@ -84,7 +84,7 @@ const NavBar = () => {
     }
 
     return (
-        <nav className='navbar' style={{opacity: `${visible ? '1' : '0'}`, top: `${visible ? '0' : '-7rem'}`}}>
+        <nav className='navbar' style={{ opacity: `${visible ? '1' : '0'}`, top: `${visible ? '0' : '-7rem'}` }}>
             <Link className='nav-logo' to='/'>
                 <img src={logo} alt='logo' />
             </Link>
@@ -103,4 +103,4 @@ const NavBar = () => {
     )
 }
 
-export  default NavBar
+export default NavBar

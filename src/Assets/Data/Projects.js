@@ -1,5 +1,5 @@
 import VisionForBlind from '../Projects/VisionForBlind.webp'
-import projectPoster from '../userimg.png'
+import projectPoster from '../userimg.webp'
 import MasterSlaveRobotArm from '../Projects/MasterSlaveRobotArm.webp'
 import IrisControlledWheelchair from '../Projects/IrisControlledWheelchair.webp'
 import PicToCode from '../Projects/PinToCode.webp'
