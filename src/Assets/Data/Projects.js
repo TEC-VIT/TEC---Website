@@ -1,8 +1,8 @@
 import VisionForBlind from '../Projects/VisionForBlind.webp'
-import projectPoster from '../userimg.webp'
 import MasterSlaveRobotArm from '../Projects/MasterSlaveRobotArm.webp'
 import IrisControlledWheelchair from '../Projects/IrisControlledWheelchair.webp'
 import PicToCode from '../Projects/PinToCode.webp'
+import SmartWorkspace from '../Projects/SmartWorkspace.webp'
 
 const Projects = [
     {
@@ -36,7 +36,7 @@ const Projects = [
         id: 4,
         name: "Smart Workspace",
         likes: 0,
-        poster: projectPoster,
+        poster: SmartWorkspace,
         intro: 'Making use of Computer vision algorithms along with sensor interfacing, smart workspace is a project that aims to build smart and eco-friendly workspaces/office spaces.',
         date: '15/2/21',
         description: 'Making use of Computer vision algorithms along with sensor interfacing, smart workspace is a project that aims to build smart and eco-friendly workspaces/office spaces. In these workspaces, the electronic device usage can be monitored and restricted based on the occupancy in one particular area of the workspace. With its efficient feedback loop mechanism, the system sends data in real-time to the user via a mobile application. The application helps the user monitor and keep track of the activities in the office space.'

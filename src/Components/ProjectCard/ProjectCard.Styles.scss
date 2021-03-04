@@ -2,12 +2,11 @@
   perspective: 1500px;
   background: transparent;
   -webkit-tap-highlight-color: transparent;
-  height: 100%;
+  box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);
 
     .card{
         transition: transform 1s;
         transform-style: preserve-3d;
-        height: 100%;
         // padding: 3rem;    
         
     }
@@ -26,7 +25,6 @@
     
       .flip-card-front, .flip-card-back {
         
-        box-shadow: -6px 8px 22px rgba(0, 0, 0, 0.1);
         // position: absolute;
         max-width: 100%;
         height: 80%;
