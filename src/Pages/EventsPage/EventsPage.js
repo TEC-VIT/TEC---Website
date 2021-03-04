@@ -23,7 +23,9 @@ class EventsPage extends Component {
                 <SectionHeading heading='Upcoming Events' />
                 <div className='upcoming-events-container'>
                 {
+                    this.state.upcomingEvents.length ?
                     this.state.upcomingEvents.map(event => <UpcomingEventSection key={event.id} event={event} />)
+                    : <div className='no-events'>No new events</div>
                 }
                 </div>
             </div>

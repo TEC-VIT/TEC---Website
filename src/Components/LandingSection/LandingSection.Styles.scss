@@ -3,7 +3,7 @@
     position: relative;
     height: 100vh;
     background-image: linear-gradient(90.05deg, rgba(23, 23, 23, 0.99) 28.76%, rgba(0, 0, 0, 0.4)),
-    url(../../Assets/LandingImg.png);
+    url(../../Assets/LandingImg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -136,7 +136,7 @@
     .landing-section{
         background-color: #161616;
         background-image: linear-gradient(181.51deg, #161616 2.5%, rgba(0, 0, 0, 0.435) 98.72%),
-        url(../../Assets/LandingImg.png);
+        url(../../Assets/LandingImg.webp);
         background-position: 50% bottom;
         max-height: 100vh;
 

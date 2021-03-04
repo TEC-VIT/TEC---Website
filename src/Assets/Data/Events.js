@@ -1,12 +1,13 @@
-import AavnikPoster from '../Aavnik.PNG'
-import BusinessIdeaPoster from '../BusinessIdea.jpg'
-import GlitchPoster from '../Glitch.jpg'
-import ParallaxPoster from '../Parallax.jpg'
-import SensoredPoster from '../Sensored.jpg'
-import TECTalksPoster from '../TECTalks.jpg'
-import InspectronicsPoster from '../Inspectronics.jpg'
-import TechnicalSessionsPoster from '../TechnicalSessions.jpg'
-import Poster from '../userimg.png'
+import AavnikPoster from '../Events/Aavnik.webp'
+import BusinessIdeaPoster from '../Events/BusinessIdea.webp'
+import GlitchPoster from '../Events/Glitch.webp'
+import ParallaxPoster from '../Events/Parallax.webp'
+import SensoredPoster from '../Events/Sensored.webp'
+import TECTalksPoster from '../Events/TECTalks.webp'
+import InspectronicsPoster from '../Events/Inspectronics.webp'
+import TechnicalSessionsPoster from '../Events/TechnicalSessions.webp'
+import EmbedPoster from '../Events/Embed.webp'
+import MakeathonPoster from '../Events/Makeathon.webp'
 
 const Events = [
     {
@@ -35,13 +36,13 @@ const Events = [
     },
     {
         id: 5,
-        poster: Poster,
+        poster: MakeathonPoster,
         title: "Makeathon",
         body: "A 36-hour grand hackathon, organized by the electronics and electrical school of VIT along with 6 other clubs and chapters. TEC-VIT’s club members have exclusively worked in organizing the event. The 2018 and 2019 events were a grand success!"
     },
     {
         id: 6,
-        poster: Poster,
+        poster: EmbedPoster,
         title: "Embed",
         body: "A 2-day flagship workshop held during graVITas, to teach freshers and seniors alike about PCB design, general PCB layout, industrial applications, and a great added hands-on!"
     },

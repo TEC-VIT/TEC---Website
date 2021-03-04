@@ -1,6 +1,8 @@
-import VisionForBlind from '../VisionForBlind.png'
+import VisionForBlind from '../Projects/VisionForBlind.webp'
 import projectPoster from '../userimg.png'
-import MasterSlaveRobotArm from '../MasterSlaveRobotArm.png'
+import MasterSlaveRobotArm from '../Projects/MasterSlaveRobotArm.webp'
+import IrisControlledWheelchair from '../Projects/IrisControlledWheelchair.webp'
+import PicToCode from '../Projects/PinToCode.webp'
 
 const Projects = [
     {
@@ -25,7 +27,7 @@ const Projects = [
         id: 3,
         name: "Iris controlled wheelchair prototype for paralysis patients",
         likes: 0,
-        poster: projectPoster,
+        poster: IrisControlledWheelchair,
         intro: 'The project aims to aid the patient suffering from complete paralysis.',
         date: '15/2/21',
         description: 'The project aims to aid the patient suffering from complete paralysis. With the help of IoT, Embedded System, and Computer vision tools a wheelchair prototype was made whose movement can be controlled by moving the Iris of the Eye. With room for more add-ons, features like GPS location, monitoring the wheelchair, or fall detection, and more gestures can be customized to the wheelchair when eye movements like blinking are taken into account. This project tries to provide a bit of freedom to those who require constant help/monitoring.'
@@ -43,19 +45,10 @@ const Projects = [
         id: 5,
         name: "Pic to Code",
         likes: 0,
-        poster: projectPoster,
+        poster: PicToCode,
         intro: 'This project aims to convert a hand-drawn design of a website into actual HTML and CSS code.',
         date: '15/2/21',
         description: 'This project aims to convert a hand-drawn design of a website into actual HTML and CSS code. Datasets of elements such as text fields, dropdowns, etc are used to detect the number of fields(dropdowns, text fields, etc), the field position, and its dimensions. The output is a well-defined HTML and CSS code for the input sketch/picture.'
-    },
-    {
-        id: 6,
-        name: "Smart Wheelchair",
-        likes: 0,
-        poster: projectPoster,
-        intro: 'To develop a next-generation smart wheelchair for people suffering from paralysis and are handicapped, which will help them to come over their self mobility constraints.',
-        date: '15/2/21',
-        description: 'To develop a next-generation smart wheelchair for people suffering from paralysis and are handicapped, which will help them to come over their self mobility constraints. To develop a low cost, reliable, easily controllable, and green wheelchair. People affected by any form of paralysis like Monoplegia, Paraplegia, Quadriplegia, ALS, etc, can be assisted by this chair. Irrespective of the  paralysis type, this system helps the person to move on their own and reduce the dependency on others. '
     }
 ]
 

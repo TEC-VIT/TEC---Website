@@ -1,13 +1,13 @@
-import StudentHead1 from '../StudentHead1.png'
-import StudentHead2 from '../StudentHead2.png'
-import ManagementHead from '../ManagementHead.png'
-import PublicityHead from '../PublicityHead.png'
-import TechnicalHead1 from '../TechnicalHead1.png'
-import TechnicalHead2 from '../TechnicalHead2.png'
-import ProjectsHead from '../ProjectsHead.jpeg'
-import InventoryHead from '../InventoryHead.png'
-import DocumentationHead from '../DocumentationHead.png'
-import DesignHead from '../DesignHead.png'
+import StudentHead1 from '../Board/StudentHead1.webp'
+import StudentHead2 from '../Board/StudentHead2.webp'
+import ManagementHead from '../Board/ManagementHead.webp'
+import PublicityHead from '../Board/PublicityHead.webp'
+import TechnicalHead1 from '../Board/TechnicalHead1.webp'
+import TechnicalHead2 from '../Board/TechnicalHead2.webp'
+import ProjectsHead from '../Board/ProjectsHead.webp'
+import InventoryHead from '../Board/InventoryHead.webp'
+import DocumentationHead from '../Board/DocumentationHead.webp'
+import DesignHead from '../Board/DesignHead.webp'
 
 const BoardMembers = [
     {
@@ -18,7 +18,7 @@ const BoardMembers = [
         links: {
             instagram: 'https://www.instagram.com/keshavv_24/',
             linkedIn: 'https://www.linkedin.com/in/keshav-sharma-/',
-            github: 'https://www.github.com/'
+            github: 'https://www.github.com/KeshavS1999'
         }
     },
     {
@@ -29,7 +29,7 @@ const BoardMembers = [
         links: {
             instagram: 'https://www.instagram.com/samiksa_sammy/',
             linkedIn: 'https://www.linkedin.com/in/samiksa-m/',
-            github: 'https://www.github.com/'
+            github: 'https://www.github.com/msamiksa'
         }
     },
     {
@@ -49,9 +49,9 @@ const BoardMembers = [
         post: 'Publicity and Marketing Head',
         image: PublicityHead,
         links: {
-            instagram: 'https://www.instagram.com/',
+            instagram: '#',
             linkedIn: 'https://www.linkedin.com/in/maulishri-bhandari-41b172190/',
-            github: 'https://www.github.com/'
+            github: 'https://www.github.com/Maulishri'
         }
     },
     {
@@ -71,9 +71,9 @@ const BoardMembers = [
         post: 'Technical Head',
         image: TechnicalHead2,
         links: {
-            instagram: 'https://www.instagram.com/',
+            instagram: 'https://www.instagram.com/shrey_b99',
             linkedIn: 'https://www.linkedin.com/in/shrey-bhiwapurkar/',
-            github: 'https://www.github.com/'
+            github: 'https://www.github.com/shreyb99'
         }
     },
     {
