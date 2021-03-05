@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TEC-Website/static/css/main.87e1f618.chunk.css",
-    "main.js": "/TEC-Website/static/js/main.1004da99.chunk.js",
-    "main.js.map": "/TEC-Website/static/js/main.1004da99.chunk.js.map",
+    "main.js": "/TEC-Website/static/js/main.dda6707c.chunk.js",
+    "main.js.map": "/TEC-Website/static/js/main.dda6707c.chunk.js.map",
     "runtime-main.js": "/TEC-Website/static/js/runtime-main.c735fe7e.js",
     "runtime-main.js.map": "/TEC-Website/static/js/runtime-main.c735fe7e.js.map",
     "static/js/2.262da7d9.chunk.js": "/TEC-Website/static/js/2.262da7d9.chunk.js",
@@ -46,6 +46,6 @@
     "static/js/runtime-main.c735fe7e.js",
     "static/js/2.262da7d9.chunk.js",
     "static/css/main.87e1f618.chunk.css",
-    "static/js/main.1004da99.chunk.js"
+    "static/js/main.dda6707c.chunk.js"
   ]
 }
