@@ -20,7 +20,7 @@ function App() {
   //   setLoading('complete')
   // }
   return (
-    <React.Fragment>
+    // <React.Fragment>
       <div className="App">
         <Switch>
           <Route exact path='/' component={HomePage} />
@@ -28,7 +28,7 @@ function App() {
         </Switch>
         <Footer />
       </div>
-    </React.Fragment>
+    // </React.Fragment>
   );
 }
 
