@@ -32,7 +32,7 @@ class ProjectSection extends Component {
                     </div>
                 </div>
                 {
-                    this.state.projects.length !== this.state.limit ? <button className='btn' onClick={() => {this.onLoadMore()}}>Load More &#8594; </button> : null
+                    this.state.projects.length !== this.state.limit && this.state.projects.length >= this.state.limit ? <button className='btn' onClick={() => {this.onLoadMore()}}>Load More &#8594; </button> : null
                 }
             </section>
         )

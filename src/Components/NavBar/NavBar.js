@@ -90,7 +90,7 @@ const NavBar = () => {
             </Link>
             <div className='nav-links' id='navbar'>
                 <Link className='nav-option' to='/'>Home</Link>
-                <Link className='nav-option' to="/#about-us-section">About Us</Link>
+                <Link className='nav-option' to='/#about-us-section'>About Us</Link>
                 <Link className='nav-option' to='/#events-section'>Events</Link>
                 <Link className='nav-option' to='/#projects-section'>Projects</Link>
                 <Link className='nav-option' to='/#board-section'>Board</Link>
