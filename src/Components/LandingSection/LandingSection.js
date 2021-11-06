@@ -4,16 +4,16 @@ import 'aos'
 
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 // Styles
 import './LandingSection.Styles.scss'
 
 const LandingSection = () => {
     // Click to Scroll Funtion
-    // const handleClick = () => {
-    //     window.scrollTo({top:window.innerHeight, behavior: "smooth"})
-    // }
+    const handleClick = () => {
+        window.scrollTo({top:window.innerHeight, behavior: "smooth"})
+    }
     
     return (
         <div className='landing-section'>
@@ -22,6 +22,7 @@ const LandingSection = () => {
                 <h3 className='heading-secondary'>Vellore Institute of Technology</h3>
                 <Link to='/events'><button className='heading-btn'>Upcoming Events <FontAwesomeIcon className='icon' icon={faChevronRight} /></button></Link>
             </div>
+            <FontAwesomeIcon onClick={handleClick} className='scroll-icon' icon={faChevronDown} />
         </div>
     )
 }

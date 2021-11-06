@@ -37,8 +37,6 @@
       font-weight: bold;
       font-size: 2.4rem;
       line-height: 2.8rem;
-      display: flex;
-      align-items: center;
       letter-spacing: 0.12em;
       margin-bottom: 2.5rem;
     }
@@ -80,6 +78,15 @@
     &:hover {
       animation-play-state: paused;
     }
+  }
+
+  .scroll-icon {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -142,41 +149,38 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .landing-section {
-    .heading {
-    }
-  }
-}
-
 @media only screen and (max-width: 470px) {
   .landing-section {
     background-color: #161616;
     background-image: linear-gradient(
         181.51deg,
         #161616 2.5%,
-        rgba(0, 0, 0, 0.435) 98.72%
+        rgba(0, 0, 0, 0.58) 98.72%
       ),
       url(../../Assets/LandingImg.webp);
-    background-position: 58% 60%;
-    background-size: 230% 125%;
+    background-position: 50% bottom;
     max-height: 100vh;
 
     .heading {
-      top: 75%;
+      top: 55%;
+      transform: translateY(-50%);
+      text-align: center;
       .heading-primary {
-        font-size: 3rem;
-        line-height: 3.5rem;
+        font-size: 6rem;
+        line-height: 7.5rem;
+        text-align: left;
       }
       .heading-secondary {
-        font-size: 1.8rem;
-        line-height: 2rem;
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+        text-align: left;
       }
       .heading-btn {
         font-size: 1.4rem;
         border: 1px solid white;
         padding: 1rem 1.7rem;
         transition: all 0.5s;
+        margin: 50px auto;
       }
     }
   }

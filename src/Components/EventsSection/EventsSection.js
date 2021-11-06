@@ -18,13 +18,25 @@ class EventsSection extends Component {
         this.state = {
             events: Events,
             upcomingEvents:UpcommingEvents,
-            limit: 6
+            limit: window.innerWidth >= 470 ? 6 : 3
         }
     }
 
-    onLoadMore = () => {
-        let extraLength = window.innerWidth >= 470 ? 3 : 5
-        this.setState({limit: this.state.limit + extraLength > this.state.events.length ? this.state.events.length : this.state.limit + extraLength})
+    onLoadMore = async () => {
+        let extraLength = 3
+        await this.setState({limit: this.state.limit + extraLength > this.state.events.length ? this.state.events.length : this.state.limit + extraLength})
+        if(window.innerWidth <= 470){
+            var eventsContainer = document.getElementsByClassName('events-container')[0]
+            eventsContainer.scrollLeft = eventsContainer.scrollWidth * ( 1 / (this.state.events.length/(this.state.limit - extraLength)))
+        }
+    }
+
+    onLoadLess = () => {
+        this.setState({limit: window.innerWidth >= 470 ? 6 : 3})
+        if(window.innerWidth <= 470){
+            var eventsContainer = document.getElementsByClassName('events-container')[0]
+            eventsContainer.scrollLeft = 0
+        }
     }
 
     render(){
@@ -41,7 +53,9 @@ class EventsSection extends Component {
                 </div>
                 <div className='buttons'>
                     {
-                        this.state.events.length !== this.state.limit ? <button className='btn load-more-btn' onClick={() => {this.onLoadMore()}}>Load More &#8594; </button> : null
+                        this.state.events.length !== this.state.limit ? 
+                            <button className='btn load-more-btn' onClick={() => {this.onLoadMore()}}>View More &#8594; </button> 
+                            : <button className='btn load-more-btn' onClick={() => {this.onLoadLess()}}>View Less &#8594; </button>
                     }
                     { this.state.upcomingEvents.length ? <Link to='/events'><button className='btn upcomming-sessions-btn'>Upcoming Sessions &#8594;</button></Link> : null }
                 </div>

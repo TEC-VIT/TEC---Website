@@ -21,7 +21,9 @@ const ProjectCard = (props) => {
                 </div>
                 <div className='flip-card-back'>
                     <p className='project-description'>{props.description}</p>
-                    <button className='btn' onClick={myFunction}>View Project &#8594; </button>
+                    {
+                        // <button className='btn' onClick={myFunction}>View Project &#8594; </button>
+                    }
                 </div>
                 
             </article>
