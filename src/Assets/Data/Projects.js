@@ -40,15 +40,6 @@ const Projects = [
         intro: 'Making use of Computer vision algorithms along with sensor interfacing, smart workspace is a project that aims to build smart and eco-friendly workspaces/office spaces.',
         date: '15/2/21',
         description: 'Making use of Computer vision algorithms along with sensor interfacing, smart workspace is a project that aims to build smart and eco-friendly workspaces/office spaces. In these workspaces, the electronic device usage can be monitored and restricted based on the occupancy in one particular area of the workspace. With its efficient feedback loop mechanism, the system sends data in real-time to the user via a mobile application. The application helps the user monitor and keep track of the activities in the office space.'
-    },
-    {
-        id: 5,
-        name: "Pic to Code",
-        likes: 0,
-        poster: PicToCode,
-        intro: 'This project aims to convert a hand-drawn design of a website into actual HTML and CSS code.',
-        date: '15/2/21',
-        description: 'This project aims to convert a hand-drawn design of a website into actual HTML and CSS code. Datasets of elements such as text fields, dropdowns, etc are used to detect the number of fields(dropdowns, text fields, etc), the field position, and its dimensions. The output is a well-defined HTML and CSS code for the input sketch/picture.'
     }
 ]
 
