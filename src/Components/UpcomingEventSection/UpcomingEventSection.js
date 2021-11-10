@@ -8,16 +8,32 @@ const UpcomingEventSection = ({event}) => {
             <div className='img-container'>
                 <img className='poster' src={event.poster} alt={event.event} />
             </div>
-            <div className='registration-form-container'>
-                <iframe
-                    className='registration-form'
-                    src="https://docs.google.com/forms/d/e/1FAIpQLScvdOGqVmcsYqPXd8WHmfMPZYKjC4UyTiLRVvN4VnpYKKDzLQ/viewform?embedded=true"
-                    title='upcoming-form'
-                    frameBorder="0"
-                    marginHeight="0"
-                    marginWidth="0"
-                >Loading…</iframe>
-            </div>
+            {
+                event.registration ? <RegistrationForm link={event.registration} /> : <EventDetails details={event.details} />
+            }
+        </div>
+    )
+}
+
+const RegistrationForm = ({link}) => {
+    return(
+        <div className='registration-form-container'>
+            <iframe
+                className='registration-form'
+                src={link}
+                title='upcoming-form'
+                frameBorder="0"
+                marginHeight="0"
+                marginWidth="0"
+            >Loading…</iframe>
+        </div>
+    )
+}
+
+const EventDetails = ({details}) => {
+    return(
+        <div className='event-details'>
+            {details}
         </div>
     )
 }
