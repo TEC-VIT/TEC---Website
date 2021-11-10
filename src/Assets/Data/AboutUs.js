@@ -10,12 +10,12 @@ const aboutUsData = {
         {
             id: 1,
             label: "members",
-            number: 109
+            number: 106
         },
         {
             id: 2,
             label: "projects",
-            number: 5
+            number: 7
         },
         {
             id: 3,

@@ -28,6 +28,16 @@
     font-size: 2rem;
     white-space: pre-line;
     text-align: justify;
+
+    a {
+      color: gray;
+      transition: all 0.5s;
+
+      &:hover {
+        color: black;
+        transform: scale(1.05);
+      }
+    }
   }
 }
 

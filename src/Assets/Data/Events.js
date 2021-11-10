@@ -36,9 +36,9 @@ const Events = [
     },
     {
         id: 5,
-        poster: MakeathonPoster,
-        title: "Makeathon",
-        body: "A 36-hour grand hackathon, organized by the electronics and electrical school of VIT along with 6 other clubs and chapters. TEC-VIT’s club members have exclusively worked in organizing the event. The 2018 and 2019 events were a grand success!"
+        poster: InspectronicsPoster,
+        title: "Inspectronics",
+        body: 'An event made of multiple sessions spanning over a month by inquisitive minds for curious brains to provide a great learning experience and answer questions like "How to stop robots from taking over?", "What kind of complex components were used in the Apollo 11?" and many more.'
     },
     // {
     //     id: 6,
@@ -60,9 +60,9 @@ const Events = [
     },
     {
         id: 8,
-        poster: InspectronicsPoster,
-        title: "Inspectronics",
-        body: 'An event made of multiple sessions spanning over a month by inquisitive minds for curious brains to provide a great learning experience and answer questions like "How to stop robots from taking over?", "What kind of complex components were used in the Apollo 11?" and many more.'
+        poster: MakeathonPoster,
+        title: "Makeathon",
+        body: "A 36-hour grand hackathon, organized by the electronics and electrical school of VIT along with 6 other clubs and chapters. TEC-VIT’s club members have exclusively worked in organizing the event. The 2018 and 2019 events were a grand success!"
     },
     {
         id: 9,
