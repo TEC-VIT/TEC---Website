@@ -2,6 +2,7 @@
   "name": "tec-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tecvit.in/",
   "proxy": "https://tec-offwebsite-backend.herokuapp.com",
   "engines": {
     "node": "12.18.0",
@@ -29,6 +30,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -51,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
