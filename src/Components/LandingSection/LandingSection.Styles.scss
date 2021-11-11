@@ -68,12 +68,12 @@
     }
   }
 
-  .scroll-btn {
-    width: 100%;
+  .scroll-icon {
     font-size: 7rem;
     position: absolute;
     bottom: 5%;
     animation: change-color 4s linear infinite;
+    cursor: pointer;
 
     &:hover {
       animation-play-state: paused;
@@ -98,22 +98,28 @@
 
 @keyframes change-color {
   0% {
-    color: #03204c;
+    color: #c2c2c2;
+    transform: translateY(0px);
   }
   20% {
-    color: #04396d;
+    color: #949494;
+    transform: translateY(-4px);
   }
   40% {
-    color: #035c96;
+    color: #676767;
+    transform: translateY(-8px);
   }
   60% {
-    color: #6497b2;
+    color: #7b7b7b;
+    transform: translateY(-8px);
   }
   80% {
-    color: #035c96;
+    color: #bfbfbf;
+    transform: translateY(-4px);
   }
   100% {
-    color: #03204c;
+    color: #cecece;
+    transform: translateY(0px);
   }
 }
 
