@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 
 import ProjectCard from '../ProjectCard/ProjectCard'
 import SectionHeading from '../SectionHeading/SectionHeading'
+import { scroller } from 'react-scroll'
 
 import Projects from '../../Assets/Data/Projects'
 
@@ -12,12 +13,22 @@ class ProjectSection extends Component {
         super()
         this.state = {
             projects: Projects,
-            limit: 6
+            limit: window.innerWidth >= 470 ? 6 : 3
         }
     }
 
     onLoadMore = () => {
         this.setState({limit: this.state.limit + 3 > this.state.projects.length ? this.state.projects.length : this.state.limit + 3})
+    }
+
+    onLoadLess = async () => {
+        await scroller.scrollTo('projects-section', {
+            duration: 800,
+            delay: 0,
+            offset: -100,
+            smooth: 'easeInOutQuart'
+        })
+        this.setState({limit: window.innerWidth >= 470 ? 6 : 3})
     }
 
     render() {
@@ -32,7 +43,9 @@ class ProjectSection extends Component {
                     </div>
                 </div>
                 {
-                    this.state.projects.length !== this.state.limit && this.state.projects.length >= this.state.limit ? <button className='btn' onClick={() => {this.onLoadMore()}}>Load More &#8594; </button> : null
+                    this.state.projects.length !== this.state.limit && this.state.projects.length >= this.state.limit ?
+                    <button className='btn' onClick={() => {this.onLoadMore()}}>Load More &#8594; </button> 
+                    : <button className='btn load-more-btn' onClick={() => {this.onLoadLess()}}>View Less &#8592; </button>
                 }
             </section>
         )

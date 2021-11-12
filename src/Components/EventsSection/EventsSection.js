@@ -55,7 +55,7 @@ class EventsSection extends Component {
                     {
                         this.state.events.length !== this.state.limit ? 
                             <button className='btn load-more-btn' onClick={() => {this.onLoadMore()}}>View More &#8594; </button> 
-                            : <button className='btn load-more-btn' onClick={() => {this.onLoadLess()}}>View Less &#8594; </button>
+                            : <button className='btn load-more-btn' onClick={() => {this.onLoadLess()}}>View Less &#8592; </button>
                     }
                     { this.state.upcomingEvents.length ? <Link to='/events'><button className='btn upcomming-sessions-btn'>Upcoming Sessions &#8594;</button></Link> : null }
                 </div>

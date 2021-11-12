@@ -3,6 +3,9 @@ import MasterSlaveRobotArm from '../Projects/MasterSlaveRobotArm.webp'
 import IrisControlledWheelchair from '../Projects/IrisControlledWheelchair.webp'
 import PicToCode from '../Projects/PinToCode.webp'
 import SmartWorkspace from '../Projects/SmartWorkspace.webp'
+import SmartAmbience from '../Projects/SmartAmbience.webp'
+import Greenhouse from '../Projects/Greenhouse.webp'
+import LiFiIndoorNavigationSystem from '../Projects/LiFiIndoorNavigationSystem.webp'
 
 const Projects = [
     {
@@ -34,6 +37,32 @@ const Projects = [
     },
     {
         id: 4,
+        name: "Smart Ambience",
+        likes: 0,
+        poster: SmartAmbience,
+        intro: "Building an efficient power management system for homes", 
+        date: "15/2/21",
+        description: "This project revolves around building an efficient power management system for homes wherein we can control the lights, ACs, fans, and other devices according to our requirement. We collect the datasets of temperature, humidity and light intensity patterns of a particular area and automate electronic devices using those"
+    },
+    {
+        id: 5,
+        name: "Li-Fi Indoor Navigation",
+        likes: 0,
+        poster: LiFiIndoorNavigationSystem,
+        intro: "Creating an app for indoor navigation system using Light Fidelity which can also be used easily by the visually impaired", 
+        date: "15/2/21",
+        description: "GPS and other satellite technologies lack precision or fail entirely, such as inside multistory buildings. Using Indoor navigation we can visualise the inside of a building and navigate ourselves through it. Usage of LED lights reduces 50% of total energy consumption. This facilitates a future in front of us; Li-Fi. This technology is used for transmitting data through Visible Light Communication(VLC)."
+    },{
+        id: 6,
+        name: "Green House Climate Controller",
+        likes: 0,
+        poster: Greenhouse,
+        intro: "A Greenhouse Climate Controller System that can help agricultural researchers study the growth, bearing and general physiological activity of specific plant species under various climatic conditions.", 
+        date: "15/2/21",
+        description: "This project is aimed at creating a Greenhouse Climate Controller System that can help agricultural researchers study the growth, bearing of fruits and flowers, health, and general physiological activity of specific plant species under various climatic conditions. Environmental Parameters like Temperature, Humidity, Ambient Light and Soil Moisture are kept under control as per crop need, using Sensors and Devices like AC, Dehumidifiers, Light, Foggers, and Water Pumps."
+    },
+    {
+        id: 7,
         name: "Smart Workspace",
         likes: 0,
         poster: SmartWorkspace,

@@ -1,75 +1,93 @@
-.footer{
-    position: absolute;
-    z-index: -1;
-    background: #161616;
-    width: 100%;
-    height: 13rem;
-    margin-top: -1rem;
+.footer {
+  position: absolute;
+  z-index: -1;
+  background: #161616;
+  width: 100%;
+  height: 13rem;
+  margin-top: -1rem;
 
-    .links{
-        height: 11rem;
+  .links {
+    height: 11rem;
 
-        .follow-us{
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 2.3rem;
-            line-height: 3.4rem;
-            margin: 0 10%;
-            padding: 1rem 0;
-        }
-
-        .section-heading{
-            margin-top: -2rem;
-
-            .icon{
-                text-decoration: none;
-
-                &:not(:last-child){
-                    margin-right: 1rem;
-                }
-
-                .medium:hover{
-                    color: #00ab6c;
-                }
-
-                .linkedin:hover{
-                    color: #0e76a8;
-                }
-    
-                .instagram:hover{
-                    color: #dd2a7b;
-                }
-    
-                .github:hover{
-                    color: #4267B2;
-                }
-            }
-
-            h1{
-                font-size: 3rem;
-                line-height: 5rem;
-            }
-        }
+    .follow-us {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 2.3rem;
+      line-height: 3.4rem;
+      margin: 0 10%;
+      padding: 1rem 0;
     }
+
+    .section-heading {
+      margin-top: -2rem;
+
+      .icon {
+        text-decoration: none;
+
+        &:not(:last-child) {
+          margin-right: 1.5rem;
+        }
+
+        .medium:hover {
+          color: #00ab6c;
+          transition: all 0.5s;
+        }
+
+        .linkedin:hover {
+          color: #0e76a8;
+          transition: all 0.5s;
+        }
+
+        .instagram:hover {
+          color: #dd2a7b;
+          transition: all 0.5s;
+        }
+
+        .facebook:hover {
+          color: #4267b2;
+          transition: all 0.5s;
+        }
+
+        .github {
+          border-radius: 50%;
+        }
+
+        .github:hover {
+          color: #000;
+          background: white;
+          transition: all 0.5s;
+        }
+
+        .discord:hover {
+          color: #7289d9;
+        }
+      }
+
+      h1 {
+        font-size: 3rem;
+        line-height: 5rem;
+      }
+    }
+  }
 }
 
-@media only screen and (max-width: 470px){
-    .footer{
-        .links{
-            height: 8rem;
-            padding-top: 3rem;
-            .follow-us{
-                font-size: 11px;
-                line-height: 16px;
-                padding-bottom: 1px;
-            }
-            .section-heading{
-                h1{
-                    font-size: 14px !important;
-                    line-height: 28px;
-                }
-            }
+@media only screen and (max-width: 470px) {
+  .footer {
+    .links {
+      height: 8rem;
+      padding-top: 3rem;
+      .follow-us {
+        font-size: 11px;
+        line-height: 16px;
+        padding-bottom: 1px;
+      }
+      .section-heading {
+        h1 {
+          font-size: 14px !important;
+          line-height: 28px;
         }
+      }
     }
+  }
 }

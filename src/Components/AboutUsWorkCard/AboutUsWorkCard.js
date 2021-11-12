@@ -12,7 +12,7 @@ const AboutUsWorkCard = ({label, number}) => {
         { ({countUpRef, start}) =>
             <VisibilitySensor onChange={start} delayedCall>
                 <div className='work'>
-                    <span className='num' ref={countUpRef} />
+                    <span className='num' ref={countUpRef} /><span className='num-plus' >+</span>
                     <p>{label}</p>
                 </div>
             </VisibilitySensor>
