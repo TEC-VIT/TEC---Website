@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.b4c2b264.chunk.css",
-    "main.js": "/static/js/main.b2788b09.chunk.js",
-    "main.js.map": "/static/js/main.b2788b09.chunk.js.map",
+    "main.css": "/static/css/main.5d1cb6cd.chunk.css",
+    "main.js": "/static/js/main.17479d05.chunk.js",
+    "main.js.map": "/static/js/main.17479d05.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.505d79e3.js",
     "runtime-main.js.map": "/static/js/runtime-main.505d79e3.js.map",
-    "static/js/2.a63e5c53.chunk.js": "/static/js/2.a63e5c53.chunk.js",
-    "static/js/2.a63e5c53.chunk.js.map": "/static/js/2.a63e5c53.chunk.js.map",
+    "static/js/2.1dcba7db.chunk.js": "/static/js/2.1dcba7db.chunk.js",
+    "static/js/2.1dcba7db.chunk.js.map": "/static/js/2.1dcba7db.chunk.js.map",
     "static/js/3.b7cd10b1.chunk.js": "/static/js/3.b7cd10b1.chunk.js",
     "static/js/3.b7cd10b1.chunk.js.map": "/static/js/3.b7cd10b1.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b4c2b264.chunk.css.map": "/static/css/main.b4c2b264.chunk.css.map",
-    "static/js/2.a63e5c53.chunk.js.LICENSE.txt": "/static/js/2.a63e5c53.chunk.js.LICENSE.txt",
+    "static/css/main.5d1cb6cd.chunk.css.map": "/static/css/main.5d1cb6cd.chunk.css.map",
+    "static/js/2.1dcba7db.chunk.js.LICENSE.txt": "/static/js/2.1dcba7db.chunk.js.LICENSE.txt",
     "static/media/Aavnik.0be4e860.webp": "/static/media/Aavnik.0be4e860.webp",
     "static/media/AboutUs.27be4369.mp4": "/static/media/AboutUs.27be4369.mp4",
     "static/media/BusinessIdea.7495da26.webp": "/static/media/BusinessIdea.7495da26.webp",
@@ -19,11 +19,13 @@
     "static/media/DocumentationHead.b899b797.webp": "/static/media/DocumentationHead.b899b797.webp",
     "static/media/Embed.96175846.webp": "/static/media/Embed.96175846.webp",
     "static/media/Glitch.14aa2072.webp": "/static/media/Glitch.14aa2072.webp",
+    "static/media/Greenhouse.10963f43.webp": "/static/media/Greenhouse.10963f43.webp",
     "static/media/Inspectronics.a203dc57.webp": "/static/media/Inspectronics.a203dc57.webp",
     "static/media/InventoryHead.96d745f1.webp": "/static/media/InventoryHead.96d745f1.webp",
     "static/media/IoTautomata.4f99c824.webp": "/static/media/IoTautomata.4f99c824.webp",
     "static/media/IrisControlledWheelchair.ff87a3a9.webp": "/static/media/IrisControlledWheelchair.ff87a3a9.webp",
     "static/media/LandingSection.Styles.scss": "/static/media/LandingImg.ecde1f8a.webp",
+    "static/media/LiFiIndoorNavigationSystem.9e83f868.webp": "/static/media/LiFiIndoorNavigationSystem.9e83f868.webp",
     "static/media/Makeathon.1c40aa64.webp": "/static/media/Makeathon.1c40aa64.webp",
     "static/media/ManagementHead.896bd65a.webp": "/static/media/ManagementHead.896bd65a.webp",
     "static/media/MasterSlaveRobotArm.b0371128.webp": "/static/media/MasterSlaveRobotArm.b0371128.webp",
@@ -32,6 +34,7 @@
     "static/media/ProjectsHead.efc437f5.webp": "/static/media/ProjectsHead.efc437f5.webp",
     "static/media/PublicityHead.90cebe84.webp": "/static/media/PublicityHead.90cebe84.webp",
     "static/media/Sensored.d123ae8d.webp": "/static/media/Sensored.d123ae8d.webp",
+    "static/media/SmartAmbience.5ac625bb.webp": "/static/media/SmartAmbience.5ac625bb.webp",
     "static/media/SmartWorkspace.6a47234e.webp": "/static/media/SmartWorkspace.6a47234e.webp",
     "static/media/StudentHead1.554e8d30.webp": "/static/media/StudentHead1.554e8d30.webp",
     "static/media/StudentHead2.6fee072f.webp": "/static/media/StudentHead2.6fee072f.webp",
@@ -45,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.505d79e3.js",
-    "static/js/2.a63e5c53.chunk.js",
-    "static/css/main.b4c2b264.chunk.css",
-    "static/js/main.b2788b09.chunk.js"
+    "static/js/2.1dcba7db.chunk.js",
+    "static/css/main.5d1cb6cd.chunk.css",
+    "static/js/main.17479d05.chunk.js"
   ]
 }
