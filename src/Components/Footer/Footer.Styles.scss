@@ -51,16 +51,19 @@
 
         .github {
           border-radius: 50%;
+          outline: 3px solid #161616;
+          outline-offset: -2px;
         }
 
         .github:hover {
-          color: #000;
+          color: #211f1f;
           background: white;
           transition: all 0.5s;
         }
 
         .discord:hover {
           color: #7289d9;
+          transition: all 0.5s;
         }
       }
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import {scroller } from 'react-scroll'
 
 import { CircleSmall } from '../BackgroundObjects/BackgroungObjects'
 
@@ -36,6 +37,13 @@ class EventsSection extends Component {
         if(window.innerWidth <= 470){
             var eventsContainer = document.getElementsByClassName('events-container')[0]
             eventsContainer.scrollLeft = 0
+        } else {
+            scroller.scrollTo('events-section', {
+                duration: 800,
+                delay: 0,
+                offset: -100,
+                smooth: 'easeInOutQuart'
+            })
         }
     }
 
