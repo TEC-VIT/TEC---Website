@@ -14,7 +14,7 @@ const aboutUsData = {
         },
         {
             id: 2,
-            label: "projects",
+            label: "domains",
             number: 8
         },
         {
