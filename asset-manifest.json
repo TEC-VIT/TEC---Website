@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3599a544.chunk.css",
-    "main.js": "/static/js/main.6f0ad65a.chunk.js",
-    "main.js.map": "/static/js/main.6f0ad65a.chunk.js.map",
+    "main.js": "/static/js/main.446ecac5.chunk.js",
+    "main.js.map": "/static/js/main.446ecac5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.505d79e3.js",
     "runtime-main.js.map": "/static/js/runtime-main.505d79e3.js.map",
     "static/js/2.76d41d4a.chunk.js": "/static/js/2.76d41d4a.chunk.js",
@@ -22,7 +22,6 @@
     "static/media/Greenhouse.10963f43.webp": "/static/media/Greenhouse.10963f43.webp",
     "static/media/Inspectronics.a203dc57.webp": "/static/media/Inspectronics.a203dc57.webp",
     "static/media/InventoryHead.96d745f1.webp": "/static/media/InventoryHead.96d745f1.webp",
-    "static/media/IoTautomata.4f99c824.webp": "/static/media/IoTautomata.4f99c824.webp",
     "static/media/IrisControlledWheelchair.ff87a3a9.webp": "/static/media/IrisControlledWheelchair.ff87a3a9.webp",
     "static/media/LandingSection.Styles.scss": "/static/media/LandingImg.ecde1f8a.webp",
     "static/media/LiFiIndoorNavigationSystem.9e83f868.webp": "/static/media/LiFiIndoorNavigationSystem.9e83f868.webp",
@@ -36,6 +35,7 @@
     "static/media/Sensored.d123ae8d.webp": "/static/media/Sensored.d123ae8d.webp",
     "static/media/SmartAmbience.5ac625bb.webp": "/static/media/SmartAmbience.5ac625bb.webp",
     "static/media/SmartWorkspace.6a47234e.webp": "/static/media/SmartWorkspace.6a47234e.webp",
+    "static/media/SoC.68544a74.webp": "/static/media/SoC.68544a74.webp",
     "static/media/StudentHead1.554e8d30.webp": "/static/media/StudentHead1.554e8d30.webp",
     "static/media/StudentHead2.6fee072f.webp": "/static/media/StudentHead2.6fee072f.webp",
     "static/media/TECLogo.a0855897.webp": "/static/media/TECLogo.a0855897.webp",
@@ -50,6 +50,6 @@
     "static/js/runtime-main.505d79e3.js",
     "static/js/2.76d41d4a.chunk.js",
     "static/css/main.3599a544.chunk.css",
-    "static/js/main.6f0ad65a.chunk.js"
+    "static/js/main.446ecac5.chunk.js"
   ]
 }
