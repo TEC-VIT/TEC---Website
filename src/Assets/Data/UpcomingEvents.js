@@ -1,4 +1,4 @@
-import SocPoster from '../UpcomingEvents/SoC.webp'
+import OpenCVPoster from '../UpcomingEvents/openCV.webp'
 
 // {
 //     id: 1,
@@ -12,10 +12,10 @@ import SocPoster from '../UpcomingEvents/SoC.webp'
 const UpcomingEvents = [
     {
         id: 1,
-        event: "SoC and how to use them",
-        time: "15-11-2021 7:30PM",
-        poster: SocPoster,
-        details: <div>SoCs are integrated circuits containing multicore CPU, GPU, cache memory, modems, and I/O capabilities on a single chip.<br /><br />Our speakers will introduce Systems-on-a-Chip to the audience at an introductory level. Through an interactive session with the audience, we will delve into the history and technology behind SoCs, and how cool they are.<br /><br />Register now in <a href="https://vtop.vit.ac.in/vtop/initialProcess" rel="noreferrer" target="_blank">VTOP</a></div>
+        event: "Getting started with OpenCV",
+        time: "17-11-2021 7:30PM",
+        poster: OpenCVPoster,
+        details: <div>Being able to see is an important aspect in life , even for robots. The future of robotics is definitely involved with machines with the ability to perceive the world. What if I tell you that this is already possible?<br /><br />Yes , you heard that right. “OpenCV” is the answer to it. OpenCV is programming library through which machines can see in real time.<br /><br />Join in for an enthralling session where we would dive into the world of Computer Vision from the very basics on November 17th at 7:30 PM.<br /><br />Register now in <a href="https://vtop.vit.ac.in/vtop/initialProcess" rel="noreferrer" target="_blank">VTOP</a></div>
     }
 ]
 
