@@ -7,7 +7,7 @@ import OpenCVPoster from '../UpcomingEvents/openCV.webp'
 //     poster: webDevPoster,
 //     registration: 'https://docs.google.com/forms/d/e/1FAIpQLScvdOGqVmcsYqPXd8WHmfMPZYKjC4UyTiLRVvN4VnpYKKDzLQ/viewform?embedded=true',
 //     details: 'Event Details'
-// }Think about all the computing power that was used by NASA to launch Apollo 1, and much more… in the palm of your hand. That is what Systems-on-a-chip are about.
+// }
 
 const UpcomingEvents = [
     {
@@ -15,7 +15,7 @@ const UpcomingEvents = [
         event: "Getting started with OpenCV",
         time: "17-11-2021 7:30PM",
         poster: OpenCVPoster,
-        details: <div>Being able to see is an important aspect in life , even for robots. The future of robotics is definitely involved with machines with the ability to perceive the world. What if I tell you that this is already possible?<br /><br />Yes , you heard that right. “OpenCV” is the answer to it. OpenCV is programming library through which machines can see in real time.<br /><br />Join in for an enthralling session where we would dive into the world of Computer Vision from the very basics on November 17th at 7:30 PM.<br /><br />Register now in <a href="https://vtop.vit.ac.in/vtop/initialProcess" rel="noreferrer" target="_blank">VTOP</a></div>
+        details: <div>Are you an internet junkie? A mystery hunter? Do you often get that spidey tingle from your inner Sherlock? If you're keen-eyed, with a curious mind that loves to hunt clues, and break them down, we at TEC have just the thing for you!<br /><br />TEC-VIT brings to you, GLITCH 3.0, an exciting and adventurous cryptic hunt where you discover a world of wonder and intrigue. <br /><br />Join us and learn about various technologies and discover new realities, having lots of fun along the way. <br /><br />Register now on <a target='_blank' href='https://vtop.vit.ac.in/vtop/initialProcess'>VTOP</a><br /><br /><b>Decipher the clues. Break the code. Escape the Glitch.</b></div>
     }
 ]
 
