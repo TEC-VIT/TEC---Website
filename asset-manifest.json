@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3599a544.chunk.css",
-    "main.js": "/static/js/main.dbbb43fb.chunk.js",
-    "main.js.map": "/static/js/main.dbbb43fb.chunk.js.map",
+    "main.js": "/static/js/main.c5c210c1.chunk.js",
+    "main.js.map": "/static/js/main.c5c210c1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.505d79e3.js",
     "runtime-main.js.map": "/static/js/runtime-main.505d79e3.js.map",
     "static/js/2.76d41d4a.chunk.js": "/static/js/2.76d41d4a.chunk.js",
@@ -43,13 +43,13 @@
     "static/media/TechnicalHead2.ddf7da38.webp": "/static/media/TechnicalHead2.ddf7da38.webp",
     "static/media/TechnicalSessions.50777c5c.webp": "/static/media/TechnicalSessions.50777c5c.webp",
     "static/media/VisionForBlind.05e5afbb.webp": "/static/media/VisionForBlind.05e5afbb.webp",
-    "static/media/openCV.5818cf9f.webp": "/static/media/openCV.5818cf9f.webp",
+    "static/media/glitch.3429d556.webp": "/static/media/glitch.3429d556.webp",
     "static/media/ourvision.48498453.webp": "/static/media/ourvision.48498453.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.505d79e3.js",
     "static/js/2.76d41d4a.chunk.js",
     "static/css/main.3599a544.chunk.css",
-    "static/js/main.dbbb43fb.chunk.js"
+    "static/js/main.c5c210c1.chunk.js"
   ]
 }
