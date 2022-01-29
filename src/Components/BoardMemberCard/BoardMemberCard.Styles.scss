@@ -1,124 +1,195 @@
-.board-member-card{
-    width: 20%;
-    margin: 0 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.board-member-card {
+  width: 20%;
+  margin: 0 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    &:hover .img-container{
-        transform: scale(1.2);
+  &:hover .img-container {
+    // transform: scale(1.2);
 
-        .img{
-            transform: scale(1);
-            filter: blur(1px) brightness(70%);
-        }
-
-        .links{
-            display: inline;
-        }
+    .img,
+    .out-img {
+      transform: translateX(-50%) scale(0.97);
+      filter: blur(1px) brightness(70%);
     }
 
-    .img-container{
-        width: 20rem;
-        height: 20rem;
-        margin: 5rem 5rem 2rem 5rem;
-        position: relative;
-        overflow: hidden;
-        border-radius: 50%;
-        transition: all .5s;
+    .links {
+      display: inline;
+    }
+  }
 
-        .img{
-            width: 100%;
-            backface-visibility: hidden;
-            transition: all .5s;
-            transform: scale(1.2);
+  .img-container {
+    width: 20rem;
+    height: 23rem;
+    margin: 5rem 5rem 2rem 5rem;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+
+    .out-img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 20rem;
+      height: 20rem;
+      transition: all 0.5s;
+      transform: translateX(-50%) scale(1.1);
+      height: 22rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20rem;
+      height: 20rem;
+      background: transparent;
+      border-radius: 50%;
+      z-index: 1;
+      box-shadow: 0 100px 0 40px #fff;
+      z-index: 80;
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20rem;
+      height: 20rem;
+      box-sizing: border-box;
+      border-radius: 50%;
+      border: 4px solid transparent;
+      //   border-bottom: 4px solid #272727;
+      //   border-right: 4px solid #272727;
+      //   border-left: 4px solid #272727;
+    }
+
+    .border {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20rem;
+      height: 20rem;
+      background: #ccc; //#ccc
+      overflow: hidden;
+      border-radius: 50%;
+      //   border: 4px solid #272727;
+    }
+
+    .img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transition: all 0.5s;
+      transform: translateX(-50%) scale(1.1);
+      height: 22rem;
+      //   transform: scale(1.2);
+    }
+
+    .links {
+      width: fit-content;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: none;
+      cursor: pointer;
+      z-index: 99;
+
+      a {
+        color: white;
+        text-decoration: none;
+        font-size: 4rem;
+        transition: all 0.2s;
+
+        &:not(:last-child) {
+          margin-right: 2rem;
         }
+      }
 
-        .links{
-            width: fit-content;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: none;
-            cursor: pointer;
-            
-            a{
-                color: white;
-                text-decoration: none;
-                font-size: 4rem;
-                transition: all .2s;
+      .linkedin:hover {
+        color: #0e76a8;
+      }
 
-                &:not(:last-child){
-                    margin-right: 2rem;
-                }
-            }
+      .instagram:hover {
+        color: #dd2a7b;
+      }
 
-            .linkedin:hover{
-                color: #0e76a8;
-            }
-
-            .instagram:hover{
-                color: #dd2a7b;
-            }
-
-            .github:hover{
-                color: #211f1f;
-            }
-        }
+      .github:hover {
+        color: #211f1f;
+      }
     }
+  }
 
-    .name{
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2.4rem;
-        line-height: 3.6rem;
-        text-align: center;
-        letter-spacing: 0.12em;
-    }
+  .name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    text-align: center;
+    letter-spacing: 0.12em;
+  }
 
-    .post{
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 2.7rem;
-        line-height: 4rem;
-        text-align: center;
-        letter-spacing: 0.12em;
-        color: #676767;
-    }
+  .post {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.7rem;
+    line-height: 4rem;
+    text-align: center;
+    letter-spacing: 0.12em;
+    color: #676767;
+  }
 }
 
-@media only screen and (max-width: 950px){
-    .board-member-card{
-        width: 50%;
-        margin: 0;
+@media only screen and (max-width: 950px) {
+  .board-member-card {
+    width: 50%;
+    margin: 0;
 
-        .img-container{
-            width: 25rem;
-            height: 25rem;
-        }
+    .img-container {
+      width: 25rem;
+      height: 25rem;
+
+      &::before,
+      &::after {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .border {
+        left: 10%;
+      }
     }
+  }
 }
 
-@media only screen and (max-width: 470px){
-    .board-member-card{
-        margin-bottom: 2rem;
+@media only screen and (max-width: 470px) {
+  .board-member-card {
+    margin-bottom: 2rem;
 
-        .img-container{
-            width: 18rem;
-            height: 18rem;
-            margin: 2rem 2rem 1rem 2rem;
-        }
+    .img-container {
+      width: 20rem;
+      height: 23rem;
+      margin: 2rem 2rem 1rem 2rem;
 
-        .name{
-            font-size: 17px;
-            line-height: 21px;
-        }
-        .post{
-            font-size: 14px;
-            line-height: 16px;
-        }
+      .border {
+        left: 0;
+      }
     }
+
+    .name {
+      font-size: 17px;
+      line-height: 21px;
+    }
+    .post {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
 }

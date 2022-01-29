@@ -12,8 +12,8 @@ import DesignHead from '../Board/DesignHead.webp'
 const BoardMembers = [
     {
         id: 1,
-        name: 'Keshav Sharma',
-        post: 'Student Head',
+        name: 'Ritwik Kundu',
+        post: 'Chairperson',
         image: StudentHead1,
         links: {
             instagram: 'https://www.instagram.com/keshavv_24/',
@@ -23,8 +23,8 @@ const BoardMembers = [
     },
     {
         id: 2,
-        name: 'Samiksa M',
-        post: 'Student Head',
+        name: 'Yash Rajgure',
+        post: 'Vice Chairperson',
         image: StudentHead2,
         links: {
             instagram: 'https://www.instagram.com/samiksa_sammy/',
@@ -34,8 +34,8 @@ const BoardMembers = [
     },
     {
         id: 3,
-        name: 'Kunal Nag',
-        post: 'Management and Operations Head',
+        name: 'Kushi Singh',
+        post: 'Secretary',
         image: ManagementHead,
         links: {
             instagram: 'https://www.instagram.com/kunal.2305/',
@@ -45,9 +45,9 @@ const BoardMembers = [
     },
     {
         id: 4,
-        name: 'Maulishri Bhandari',
-        post: 'Publicity and Marketing Head',
-        image: PublicityHead,
+        name: 'Ritwik Ojha',
+        post: 'Co-Secretary',
+        image: DocumentationHead,
         links: {
             instagram: '#',
             linkedIn: 'https://www.linkedin.com/in/maulishri-bhandari-41b172190/',
@@ -56,7 +56,7 @@ const BoardMembers = [
     },
     {
         id: 5,
-        name: 'Krishn Kumar',
+        name: 'Arindham Bhattacharyya',
         post: 'Technical Head',
         image: TechnicalHead1,
         links: {
@@ -67,8 +67,8 @@ const BoardMembers = [
     },
     {
         id: 6,
-        name: 'Shrey Bhiwapurkar',
-        post: 'Technical Head',
+        name: 'Yashwanth Kolli',
+        post: 'Projects Head',
         image: TechnicalHead2,
         links: {
             instagram: 'https://www.instagram.com/shrey_b99',
@@ -78,8 +78,8 @@ const BoardMembers = [
     },
     {
         id: 7,
-        name: 'Ishita Kabra',
-        post: 'Projects and Events Head',
+        name: 'Milan Mandal',
+        post: 'R&D Head',
         image: ProjectsHead,
         links: {
             instagram: 'https://www.instagram.com/artiishiii.__/',
@@ -89,8 +89,8 @@ const BoardMembers = [
     },
     {
         id: 8,
-        name: 'Mouli Prakash',
-        post: 'Inventory and Finance Head',
+        name: 'Abhay Sengar',
+        post: 'Finance Head',
         image: InventoryHead,
         links: {
             instagram: 'https://www.instagram.com/mouli_.__._007/',
@@ -100,9 +100,9 @@ const BoardMembers = [
     },
     {
         id: 9,
-        name: 'Avinash Prasad',
-        post: 'Documentation and Sponsorship Head',
-        image: DocumentationHead,
+        name: 'Keshav Kapoor',
+        post: 'Publicity Head',
+        image: PublicityHead,
         links: {
             instagram: 'https://www.instagram.com/',
             linkedIn: 'https://www.linkedin.com/in/avinash-prasad-99a22812a/',
@@ -111,7 +111,7 @@ const BoardMembers = [
     },
     {
         id: 10,
-        name: 'Rudra Das',
+        name: 'Manishraj Khan',
         post: 'Design Head',
         image: DesignHead,
         links: {

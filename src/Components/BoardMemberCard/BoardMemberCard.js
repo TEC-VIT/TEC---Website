@@ -14,18 +14,21 @@ const BoardMemberCard = ({member}) => {
     return (
         <div className='board-member-card'>
             <figure className='img-container' data-aos="zoom-in">
-                <img src={member.image} alt={member.name} className='img' />
-                <figcaption className='links'>
-                    <a className='linkedin' href={member.links.linkedIn} target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faLinkedin} />
-                    </a>
-                    <a className='instagram' href={member.links.instagram} target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faInstagram} />
-                    </a>
-                    <a className='github' href={member.links.github} target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                </figcaption>
+                <div className='border'>
+                    <img src={member.image} alt={member.name} className='img' />
+                    <figcaption className='links'>
+                        <a className='linkedin' href={member.links.linkedIn} target='_blank' rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
+                        <a className='instagram' href={member.links.instagram} target='_blank' rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={faInstagram} />
+                        </a>
+                        <a className='github' href={member.links.github} target='_blank' rel='noopener noreferrer'>
+                            <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                    </figcaption>
+                </div>
+                <img src={member.image} alt={member.name} className='out-img' />
             </figure>
             <p className='name'>{member.name}</p>
             <p className='post'>{member.post}</p>

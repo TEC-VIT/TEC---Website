@@ -1,4 +1,5 @@
-import OpenCVPoster from '../UpcomingEvents/openCV.webp'
+import UIUXPoster from '../UpcomingEvents/UI_UX.jpg'
+import AppDevPoster from '../UpcomingEvents/AppDev.jpg'
 
 // {
 //     id: 1,
@@ -12,10 +13,17 @@ import OpenCVPoster from '../UpcomingEvents/openCV.webp'
 const UpcomingEvents = [
     {
         id: 1,
-        event: "Getting started with OpenCV",
-        time: "17-11-2021 7:30PM",
-        poster: OpenCVPoster,
-        details: <div>Are you an internet junkie? A mystery hunter? Do you often get that spidey tingle from your inner Sherlock? If you're keen-eyed, with a curious mind that loves to hunt clues, and break them down, we at TEC have just the thing for you!<br /><br />TEC-VIT brings to you, GLITCH 3.0, an exciting and adventurous cryptic hunt where you discover a world of wonder and intrigue. <br /><br />Join us and learn about various technologies and discover new realities, having lots of fun along the way. <br /><br />Register now on <a target='_blank' href='https://vtop.vit.ac.in/vtop/initialProcess'>VTOP</a><br /><br /><b>Decipher the clues. Break the code. Escape the Glitch.</b></div>
+        event: "IoT interfacing: UI/UX",
+        time: "29th January, 2022 6:30PM",
+        poster: UIUXPoster,
+        details: <div>"Design is intelligence made visible."<br />TEC-VIT brings you an all new introductory UI/UX session focusing on the fundamentals of designing an IoT application for end-users. The session provides hands-on experience on how to design and implement a robust prototype of an app that can interact with IoT devices.<br /><br />Suited and booted for learning? Tune in to the first session of a thrilling two part App-Dev series to learn everything from the basics of UI/UX to the design of an IoT application.<br /><br />Join us at 6:30 PM on January 29th to know more about IoT Interfacing: UI/UX! Link in Bio!<br /><br />Register now on <a href='https://vtop.vit.ac.in/vtop/initialProcess' target='_blank' rel='noreferrer'>VTOP</a>! Stay Tuned!</div>
+    },
+    {
+        id: 2,
+        event: "IoT interfacing: App Dev",
+        time: "30th January, 2022 6:30PM",
+        poster: AppDevPoster,
+        details: <div>Do you wanna dive deep into the basics of application development? Do you consider developing apps is equivalent to a thrilling quest? Do you find the need of a robust & easy to use frontend to control IoT/IIoT devices?<br /><br />If so, then our next session "IoT Interfacing : App Dev" is specially meant for you where we'll make you familiar with the basics of app development, such as application dev tools & environment, components, services, etc. followed by a workshop, full of creativity and panache to help you in building an application from scratch, to control and monitor real-time data in any electronics project.<br /><br />Register now on <a href='https://vtop.vit.ac.in/vtop/initialProcess' target='_blank' rel='noreferrer'>VTOP</a>! Happy developing ! :)</div>
     }
 ]
 

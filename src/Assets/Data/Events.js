@@ -12,9 +12,9 @@ import MakeathonPoster from '../Events/Makeathon.webp'
 const Events = [
     {
         id: 1,
-        poster: SensoredPoster,
-        title: "Sensored",
-        body: "An annual pre-graVITas 2-day flagship event by TEC, that presents a learning journey like no other. The journey begins at basic sensors and their interfacing, includes hands-on sessions, takeaway kits, guest lectures by industry-renowned speakers and concludes with key insights into the IoT domain."
+        poster: GlitchPoster,
+        title: "Glitch",
+        body: "A 12-hour theme-based cryptic tech hunt organized with graVITas is a real test of adroitness. A problem-solving expedition where possibilities are endless but only the ones who look at the tiniest of details have a chance to forge ahead to grandeur."
     },
     {
         id: 2,
@@ -24,9 +24,9 @@ const Events = [
     },
     {
         id: 3,
-        poster: GlitchPoster,
-        title: "Glitch",
-        body: "A 12-hour theme-based cryptic tech hunt organized with graVITas is a real test of adroitness. A problem-solving expedition where possibilities are endless but only the ones who look at the tiniest of details have a chance to forge ahead to grandeur."
+        poster: SensoredPoster,
+        title: "Sensored",
+        body: "An annual pre-graVITas 2-day flagship event by TEC, that presents a learning journey like no other. The journey begins at basic sensors and their interfacing, includes hands-on sessions, takeaway kits, guest lectures by industry-renowned speakers and concludes with key insights into the IoT domain."
     },
     {
         id: 4,
