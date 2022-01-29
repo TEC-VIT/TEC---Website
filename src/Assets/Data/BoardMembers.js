@@ -16,9 +16,9 @@ const BoardMembers = [
         post: 'Chairperson',
         image: StudentHead1,
         links: {
-            instagram: 'https://www.instagram.com/keshavv_24/',
-            linkedIn: 'https://www.linkedin.com/in/keshav-sharma-/',
-            github: 'https://www.github.com/KeshavS1999'
+            instagram: 'https://www.instagram.com/theritwikkundu/',
+            linkedIn: 'https://www.linkedin.com/in/kundu-ritwik/',
+            github: 'https://www.github.com/theritwikkundu'
         }
     },
     {
@@ -27,9 +27,9 @@ const BoardMembers = [
         post: 'Vice Chairperson',
         image: StudentHead2,
         links: {
-            instagram: 'https://www.instagram.com/samiksa_sammy/',
-            linkedIn: 'https://www.linkedin.com/in/samiksa-m/',
-            github: 'https://www.github.com/msamiksa'
+            instagram: 'https://www.instagram.com/yash_rajgure/',
+            linkedIn: 'https://www.linkedin.com/in/yash-rajgure/',
+            github: 'https://github.com/yashrajgure'
         }
     },
     {
@@ -38,9 +38,9 @@ const BoardMembers = [
         post: 'Secretary',
         image: ManagementHead,
         links: {
-            instagram: 'https://www.instagram.com/kunal.2305/',
-            linkedIn: 'https://www.linkedin.com/in/kunal-nag-8447a4190/',
-            github: 'https://www.github.com/'
+            instagram: 'https://www.instagram.com/_khushi_singh_tiv/',
+            linkedIn: 'https://www.linkedin.com/in/khushi-singh-5077721b5/',
+            github: 'https://github.com/khushisinghvit'
         }
     },
     {
@@ -49,9 +49,9 @@ const BoardMembers = [
         post: 'Co-Secretary',
         image: DocumentationHead,
         links: {
-            instagram: '#',
-            linkedIn: 'https://www.linkedin.com/in/maulishri-bhandari-41b172190/',
-            github: 'https://www.github.com/Maulishri'
+            instagram: 'https://www.instagram.com/ritwik.ojha.37/',
+            linkedIn: 'https://www.linkedin.com/in/ritwik-ojha-54a6521b6/',
+            github: 'https://www.github.com/'
         }
     },
     {
@@ -60,9 +60,9 @@ const BoardMembers = [
         post: 'Technical Head',
         image: TechnicalHead1,
         links: {
-            instagram: 'https://www.instagram.com/krishn_157/',
-            linkedIn: 'https://www.linkedin.com/in/krishn157/',
-            github: 'https://github.com/Krishn157'
+            instagram: 'https://www.instagram.com/ari_idont/',
+            linkedIn: 'https://www.linkedin.com/in/arindam-bhattacharyya-16439b195/',
+            github: 'https://github.com/ari1idont'
         }
     },
     {
@@ -71,9 +71,9 @@ const BoardMembers = [
         post: 'Projects Head',
         image: TechnicalHead2,
         links: {
-            instagram: 'https://www.instagram.com/shrey_b99',
-            linkedIn: 'https://www.linkedin.com/in/shrey-bhiwapurkar/',
-            github: 'https://www.github.com/shreyb99'
+            instagram: 'https://www.instagram.com/200iq_0skill/',
+            linkedIn: 'https://www.linkedin.com/in/yashwanth-kolli-b8b413208/',
+            github: 'https://github.com/yashwanthkolli'
         }
     },
     {
@@ -82,9 +82,9 @@ const BoardMembers = [
         post: 'R&D Head',
         image: ProjectsHead,
         links: {
-            instagram: 'https://www.instagram.com/artiishiii.__/',
-            linkedIn: 'https://www.linkedin.com/in/ishita-kabra-3b305818b/',
-            github: 'https://github.com/ishita1805'
+            instagram: 'https://www.instagram.com/milan._.mandal/',
+            linkedIn: 'https://www.linkedin.com/in/milan-mandal-2001/',
+            github: 'https://github.com/milanmandal'
         }
     },
     {
@@ -93,9 +93,9 @@ const BoardMembers = [
         post: 'Finance Head',
         image: InventoryHead,
         links: {
-            instagram: 'https://www.instagram.com/mouli_.__._007/',
-            linkedIn: 'https://www.linkedin.com/in/mouli-prakash-ms/',
-            github: 'https://github.com/Maulise'
+            instagram: 'https://www.instagram.com/abhaysengar1324/',
+            linkedIn: 'https://www.linkedin.com/in/abhay-sengar-8769141a9/',
+            github: 'https://github.com/'
         }
     },
     {
@@ -104,8 +104,8 @@ const BoardMembers = [
         post: 'Publicity Head',
         image: PublicityHead,
         links: {
-            instagram: 'https://www.instagram.com/',
-            linkedIn: 'https://www.linkedin.com/in/avinash-prasad-99a22812a/',
+            instagram: 'https://www.instagram.com/keshav_kapoor8530/',
+            linkedIn: 'https://www.linkedin.com/in/keshav-kapoor-4a14381b3/',
             github: 'https://www.github.com/'
         }
     },
@@ -115,9 +115,9 @@ const BoardMembers = [
         post: 'Design Head',
         image: DesignHead,
         links: {
-            instagram: 'https://www.instagram.com/rudra.dsigns/',
-            linkedIn: 'https://www.linkedin.com/in/rudra-das-874394194/',
-            github: 'https://www.github.com/'
+            instagram: 'https://www.instagram.com/the.guardian.of.yggdrasil/',
+            linkedIn: 'https://www.linkedin.com/in/manishraj-khan/',
+            github: 'https://github.com/manishrajkhan'
         }
     }
 ]
