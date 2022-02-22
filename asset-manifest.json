@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.58546789.chunk.css",
-    "main.js": "/static/js/main.e160dd2a.chunk.js",
-    "main.js.map": "/static/js/main.e160dd2a.chunk.js.map",
+    "main.js": "/static/js/main.a18efadf.chunk.js",
+    "main.js.map": "/static/js/main.a18efadf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.505d79e3.js",
     "runtime-main.js.map": "/static/js/runtime-main.505d79e3.js.map",
     "static/js/2.76d41d4a.chunk.js": "/static/js/2.76d41d4a.chunk.js",
@@ -14,7 +14,6 @@
     "static/js/2.76d41d4a.chunk.js.LICENSE.txt": "/static/js/2.76d41d4a.chunk.js.LICENSE.txt",
     "static/media/Aavnik.0be4e860.webp": "/static/media/Aavnik.0be4e860.webp",
     "static/media/AboutUs.27be4369.mp4": "/static/media/AboutUs.27be4369.mp4",
-    "static/media/AppDev.8f2255a7.jpg": "/static/media/AppDev.8f2255a7.jpg",
     "static/media/BusinessIdea.7495da26.webp": "/static/media/BusinessIdea.7495da26.webp",
     "static/media/DesignHead.a074c061.webp": "/static/media/DesignHead.a074c061.webp",
     "static/media/DocumentationHead.724d91eb.webp": "/static/media/DocumentationHead.724d91eb.webp",
@@ -33,6 +32,7 @@
     "static/media/PinToCode.dd6f714a.webp": "/static/media/PinToCode.dd6f714a.webp",
     "static/media/ProjectsHead.8c606b1b.webp": "/static/media/ProjectsHead.8c606b1b.webp",
     "static/media/PublicityHead.6e428dcf.webp": "/static/media/PublicityHead.6e428dcf.webp",
+    "static/media/QW.8455d1c8.webp": "/static/media/QW.8455d1c8.webp",
     "static/media/Sensored.d123ae8d.webp": "/static/media/Sensored.d123ae8d.webp",
     "static/media/SmartAmbience.5ac625bb.webp": "/static/media/SmartAmbience.5ac625bb.webp",
     "static/media/SmartWorkspace.6a47234e.webp": "/static/media/SmartWorkspace.6a47234e.webp",
@@ -43,7 +43,6 @@
     "static/media/TechnicalHead1.83c7e82e.webp": "/static/media/TechnicalHead1.83c7e82e.webp",
     "static/media/TechnicalHead2.4641ce6f.webp": "/static/media/TechnicalHead2.4641ce6f.webp",
     "static/media/TechnicalSessions.50777c5c.webp": "/static/media/TechnicalSessions.50777c5c.webp",
-    "static/media/UI_UX.61662353.jpg": "/static/media/UI_UX.61662353.jpg",
     "static/media/VisionForBlind.05e5afbb.webp": "/static/media/VisionForBlind.05e5afbb.webp",
     "static/media/ourvision.48498453.webp": "/static/media/ourvision.48498453.webp"
   },
@@ -51,6 +50,6 @@
     "static/js/runtime-main.505d79e3.js",
     "static/js/2.76d41d4a.chunk.js",
     "static/css/main.58546789.chunk.css",
-    "static/js/main.e160dd2a.chunk.js"
+    "static/js/main.a18efadf.chunk.js"
   ]
 }
