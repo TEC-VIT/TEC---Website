@@ -51,7 +51,7 @@ const BoardMembers = [
         links: {
             instagram: 'https://www.instagram.com/ritwik.ojha.37/',
             linkedIn: 'https://www.linkedin.com/in/ritwik-ojha-54a6521b6/',
-            github: 'https://www.github.com/'
+            github: 'https://github.com/daredevil2020'
         }
     },
     {
@@ -89,28 +89,6 @@ const BoardMembers = [
     },
     {
         id: 8,
-        name: 'Abhay Sengar',
-        post: 'Finance Head',
-        image: InventoryHead,
-        links: {
-            instagram: 'https://www.instagram.com/abhaysengar1324/',
-            linkedIn: 'https://www.linkedin.com/in/abhay-sengar-8769141a9/',
-            github: 'https://github.com/'
-        }
-    },
-    {
-        id: 9,
-        name: 'Keshav Kapoor',
-        post: 'Publicity Head',
-        image: PublicityHead,
-        links: {
-            instagram: 'https://www.instagram.com/keshav_kapoor8530/',
-            linkedIn: 'https://www.linkedin.com/in/keshav-kapoor-4a14381b3/',
-            github: 'https://www.github.com/'
-        }
-    },
-    {
-        id: 10,
         name: 'Manishraj Khan',
         post: 'Design Head',
         image: DesignHead,
@@ -118,6 +96,28 @@ const BoardMembers = [
             instagram: 'https://www.instagram.com/the.guardian.of.yggdrasil/',
             linkedIn: 'https://www.linkedin.com/in/manishraj-khan/',
             github: 'https://github.com/manishrajkhan'
+        }
+    },
+    {
+        id: 9,
+        name: 'Abhay Sengar',
+        post: 'Finance Head',
+        image: InventoryHead,
+        links: {
+            instagram: 'https://www.instagram.com/abhaysengar1324/',
+            linkedIn: 'https://www.linkedin.com/in/abhay-sengar-8769141a9/',
+            github: 'https://github.com/abhay202'
+        }
+    },
+    {
+        id: 10,
+        name: 'Keshav Kapoor',
+        post: 'Publicity Head',
+        image: PublicityHead,
+        links: {
+            instagram: 'https://www.instagram.com/keshav_kapoor8530/',
+            linkedIn: 'https://www.linkedin.com/in/keshav-kapoor-4a14381b3/',
+            github: 'https://github.com/KKapoor0801'
         }
     }
 ]

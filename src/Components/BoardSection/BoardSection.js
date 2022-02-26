@@ -22,7 +22,7 @@ class BoardSection extends Component {
     render(){
         return (
             <section className='board-section'>
-                <SectionHeading heading='Board of 2020-21' center />
+                <SectionHeading heading='Board of 2021-22' center />
                 <div className='board-list'>
                 <div className='circle'>
                     <Circle />
