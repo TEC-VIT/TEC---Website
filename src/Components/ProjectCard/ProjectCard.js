@@ -3,9 +3,6 @@ import './ProjectCard.Styles.scss'
 
 const ProjectCard = (props) => {
 
-    const myFunction= () => {
-        alert("Will be updated soon!");
-    }
     return (
         <div className='project-card'>
             <article className="card">

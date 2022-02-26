@@ -1,4 +1,4 @@
-import Poster from '../UpcomingEvents/QW.webp'
+// import Poster from '../UpcomingEvents/QW.webp'
 
 // {
 //     id: 1,
