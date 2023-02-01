@@ -23,7 +23,7 @@ const BoardMembers = [
     },
     {
         id: 2,
-        name: 'Yash Rajgure',
+        name: 'Ishani Mishra',
         post: 'Vice Chairperson',
         image: StudentHead2,
         links: {
